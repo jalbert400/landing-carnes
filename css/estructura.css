@@ -729,6 +729,10 @@
     color: #2b692e;
     padding-bottom: 10px;
   }
+  .ttl-landing-receta-semana-video:hover{
+    box-shadow: 5px 5px 0px #2b692e;
+    transition: all .3s ease-in-out;
+  }
   .ttl-landing-receta-semana-preparacion-lista{
     list-style: inherit;
     padding-left: 18px;
@@ -1377,3 +1381,11 @@
     border-bottom-right-radius: 20px;
   }
 /****************  FIN BLOQUE ROSEMALL  ****************/
+
+.ttl-landing-content-hover:hover, .ttl-landing-meals-border-rectangle-h img:hover, .ttl-landing-meals-border-rectangle img:hover{
+  box-shadow: 5px 5px 0px #2b692e;
+  transition: all .3s ease-in-out;
+}
+.ttl-receta-semana-video:hover{
+  box-shadow: 5px 5px 0px #2b692e;
+}
