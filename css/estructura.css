@@ -1388,4 +1388,5 @@
 }
 .ttl-receta-semana-video:hover{
   box-shadow: 5px 5px 0px #2b692e;
+  transition: all .3s ease-in-out;
 }
