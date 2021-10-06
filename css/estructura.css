@@ -807,8 +807,11 @@
 
 /*** INICIO BLOQUE CAZADORES MITOS ***/
   .ttl-landing-cazadoras-mitos{
-    width: 100%;
     margin-bottom: 70px;
+    width: 1340px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
   .ttl-landing-cazadoras-mitos-fondo-contenedor:before{
     position: absolute;
@@ -828,7 +831,7 @@
     z-index: -1;
   }
   .ttl-landing-cazadoras-mitos-descripcion-contenedor{
-    padding-top: 80px;
+    padding-top: 100px;
   }
   .ttl-landing-cazadoras-mitos-descripcion{
     margin-left: -20px;
@@ -837,7 +840,8 @@
     font-size: 53px;
     color: #fefdfb;
     line-height: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
+    padding-top: 10px;
   }
   .ttl-landing-cazadoras-mitos-titulo p:before {
     position: absolute;
@@ -853,7 +857,7 @@
     z-index: -1;
   }
   .ttl-landing-cazadoras-mitos-sub-titulo{
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     text-align: center;
     font-size: 15px;
     color: #fefdfb;
@@ -884,7 +888,7 @@
     max-width: 90%;
   }
   .icons-mitos{
-    padding-top: 85px;
+    padding-top: 37px;
     text-align: center;
   }
   .icons-mitos-size{
