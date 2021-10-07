@@ -1,5 +1,9 @@
 /****************  INICIO BLOQUE DAVID  ****************/ 
 
+.glide__slides{
+  padding: 60px !important;
+  justify-content: center;
+}
 
   .ttl_font_intro{
     font-family: 'IntroBook';
@@ -43,15 +47,17 @@
   #ttl_landing_meats .ttl_meats{
       background-color: white;
       border-radius: 30px;
-      box-shadow: 1px -1px 17px 4px rgb(166 166 166 / 58%);
-      -webkit-box-shadow: 1px -1px 17px 4px rgb(166 166 166 / 58%);
-      -moz-box-shadow: 1px -1px 17px 4px rgba(166,166,166,0.58);
+      box-shadow: 1px -1px 11px 3px rgb(166 166 166 / 58%);
+      -webkit-box-shadow: 1px -1px 11px 3px rgb(166 166 166 / 58%);
+      -moz-box-shadow: 1px -1px 11px 3px rgba(166,166,166,0.58);
       text-align: center;
       line-height: 1.2;
       text-decoration: none;
       height: 200px;
       width: 170px;
       transform: scale(1);
+      margin: 10px;
+cursor: pointer;
   }
 
   .ttl_text{
@@ -77,7 +83,7 @@
   }
 
   #ttl_landing_meats .ttl_meats:hover {
-      transform: scale(1.1);
+      transform: scale(1.04);
       -webkit-transition: all .3s ease-in-out;
       -moz-transition: all .3s ease-in-out;
       -o-transition: all .3s ease-in-out;
@@ -86,8 +92,15 @@
       line-height: 1.2;
       font-weight: normal;
       text-decoration: none;
+      box-shadow: 1px -1px 11px 3px rgb(166 166 166 / 58%);
+      -webkit-box-shadow: 1px -1px 11px 3px rgb(166 166 166 / 58%);
+      -moz-box-shadow: 1px -1px 11px 3px rgba(166,166,166,0.58);
 
   }
+
+  a:visited, a:hover, a:active {
+    text-decoration: none;
+   }
 
 
   .ttl_meats:hover .ttl_text{
