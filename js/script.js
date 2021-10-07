@@ -1,5 +1,61 @@
+/*COD SCROLL SUAVE*/ 
 
+window.onload = () => {
+    let links = document.querySelectorAll('.link')
+    
+    let res = links[0]
+    res.addEventListener('click', () => {
+      scrollSuave('#res', 1000, 81)
+    })
+  
+    let pollo = links[1]
+    pollo.addEventListener('click', () => {
+      scrollSuave('#pollo', 1800, 78)
+    })
+    
+    let cerdo = links[2]
+    cerdo.addEventListener('click', () => {
+      scrollSuave('#cerdo', 1800, 50)
+    })
+  
+    let pavo = links[3]
+    pavo.addEventListener('click', () => {
+      scrollSuave('#pavo', 1800, 78)
+    })
 
+    let pescado = links[4]
+    pescado.addEventListener('click', () => {
+      scrollSuave('#pescado', 1800, 78)
+    })
+    let especiales = links[5]
+    especiales.addEventListener('click', () => {
+      scrollSuave('#especiales', 1800, 78)
+    })
+  }
+  
+  
+  const scrollSuave = (objetivo, duracion, compensacion) => {
+    let elemObj = document.querySelector(objetivo)
+    let elemPos = elemObj.getBoundingClientRect().top - compensacion
+    let posInicial = window.pageYOffset
+    let tiempoInicial = null
+  
+    const animacion = tiempoAhora => {
+      if (tiempoInicial === null) tiempoInicial = tiempoAhora
+      tiempoPasado = tiempoAhora - tiempoInicial
+      let auxAnimacion = easeInOutQuad(tiempoPasado, posInicial, elemPos, duracion)
+      window.scrollTo(0, auxAnimacion)
+      if (tiempoPasado < duracion) requestAnimationFrame(animacion)
+    }
+    requestAnimationFrame(animacion)
+  }
+  
+  const easeInOutQuad = (t, b, c, d) => {
+    t /= d / 2
+    if (t < 1) return c / 2 * t * t + b
+    t--
+    return - c / 2 * (t * (t - 2) - 1) + b
+  }
 
 var playVideo = function (modal) {
     var video = modal.querySelector('iframe, video');
@@ -57,7 +113,7 @@ MicroModal.init({
     awaitOpenAnimation: false, // [8]
     awaitCloseAnimation: false, // [9]
     debugMode: true, // [10]
-    callbackClose: function ( toggle, modal ) {
+    callbackClose: function (toggle, modal) {
         stopVideo(modal);
     }
 });

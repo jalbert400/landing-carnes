@@ -1,5 +1,8 @@
 /****************  INICIO BLOQUE DAVID  ****************/ 
 
+
+
+
 .glide__slides{
   padding: 60px !important;
   justify-content: center;
@@ -146,7 +149,7 @@ cursor: pointer;
       position: absolute;
       content: '';
       height: 92px;
-      background-color: #92b956cf;
+      background-color: #5aa219d6;
       border-bottom-left-radius: 25px;
       border-bottom-right-radius: 25px;
       left: 0;

@@ -7,10 +7,6 @@ body {
   min-height: 100vh;
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
 .container {
   width: 1200px;
   max-width: 100%;
