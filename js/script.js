@@ -1,7 +1,6 @@
 /*COD SCROLL SUAVE*/ 
-
 window.onload = () => {
-    let links = document.getElementsByClassName('.glide__slide')
+    let links = document.querySelectorAll('.desplazamiento')
     
     let res = links[0]
     res.addEventListener('click', () => {
