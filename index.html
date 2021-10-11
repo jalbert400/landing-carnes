@@ -15,7 +15,7 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
-    
+
 
     <!-- INICIO CSS WEB -->
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
@@ -33,22 +33,11 @@
 
     <!-- INICIO SECCION DAVID -->
 
-
-
-
-
-
-
-
-
-
-
     <div class="container">
-
         <section id="ttl_landing_meats" class="ttl_landing_meats">
-            <div class="row"></div>
-                <div class="glide"></div>
-                    <div data-glide-el="track" class="glide__track"></div>
+            <div class="row">
+                <div class="glide">
+                    <div data-glide-el="track" class="glide__track">
                         <ul class="glide__slides">
                             <a href="#res" class="link">
                                 <li class="glide__slide ttl_meats ttl_flex ttl_justify_content">
@@ -86,6 +75,7 @@
                                             <p>CARNE DE <br> <span
                                                     class="ttl_text_medium ttl_font_introblack">CERDO</span></p>
                                         </div>
+                                    </div>
                                 </li>
                             </a>
                             <a href="#pavo" class="link">
@@ -130,8 +120,10 @@
                         </ul>
                     </div>
                 </div>
+
             </div>
         </section>
+
 
     </div>
 
@@ -336,7 +328,7 @@
 
         <section id="ttl_landing_meats" class="padding-bottom-30">
 
-            <div id="res" >
+            <div id="res">
                 <div class="ttl-landing-meals-baner-border ttl-landing-content-hover">
                     <img id="ttl-landing-meals-imgBaner" src="imgs/banner_carnes.png" alt="Carne de res">
 
@@ -1341,11 +1333,10 @@
             breakpoints: {
                 1024: {
                     startAt: 'center',
-                    perView: 4,
+                    perView: 3,
                     dragThreshold: true,
                 },
-                600: {
-
+                375: {
                     startAt: 'center',
                     perView: 2.5,
                     dragThreshold: true,
