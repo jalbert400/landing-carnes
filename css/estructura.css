@@ -1,977 +1,972 @@
-/****************  INICIO BLOQUE DAVID  ****************/ 
+/****************  INICIO BLOQUE DAVID  ****************/
 
-
-
-
-.glide__slides{
+.glide__slides {
   padding: 60px !important;
+}
+
+.ttl_font_intro {
+  font-family: "IntroBook";
+}
+.ttl_font_introblack {
+  font-family: "Intro-Black-Alt";
+}
+.padding-top-seccion {
+  padding-top: 50px;
+}
+.padding-bottom-30 {
+  padding-bottom: 30px;
+}
+.padding-bottom-50 {
+  padding-bottom: 50px;
+}
+.padding-bottom-seccion {
+  padding-bottom: 70px;
+}
+.padding-top-bottom {
+  padding: 45px 0 65px 0;
+}
+.padding-10-h {
+  padding: 10px 0;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.ttl_image {
+  height: 100px;
+}
+.ttl_flex {
+  display: flex;
+  align-items: center;
+}
+
+.ttl_justify_content {
   justify-content: center;
 }
 
-  .ttl_font_intro{
-    font-family: 'IntroBook';
-  }
-  .ttl_font_introblack{
-    font-family: "Intro-Black-Alt";
-  }
-  .padding-top-seccion {
-    padding-top: 50px;
-  }
-  .padding-bottom-30 {
-    padding-bottom: 30px;
-  }
-  .padding-bottom-50 {
-    padding-bottom: 50px;
-  }
-  .padding-bottom-seccion {
-    padding-bottom: 70px;
-  }
-  .padding-top-bottom {
-    padding: 45px 0 65px 0;
-  }
-  .padding-10-h{
-    padding: 10px 0;
-  }
-  .font-weight-600{
-    font-weight: 600;
-  }
-  .ttl_image {
-      height: 100px;
-  }
-  .ttl_flex{
-      display: flex;
-      align-items: center;
-  }
+#ttl_landing_meats .ttl_meats {
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 1px -1px 11px 3px rgb(166 166 166 / 58%);
+  -webkit-box-shadow: 1px -1px 11px 3px rgb(166 166 166 / 58%);
+  -moz-box-shadow: 1px -1px 11px 3px rgba(166, 166, 166, 0.58);
+  text-align: center;
+  line-height: 1.2;
+  text-decoration: none;
+  height: 200px;
+  width: 170px !important;
+  transform: scale(1);
+  margin: 10px;
+  cursor: pointer;
+}
 
-  .ttl_justify_content{
-      justify-content: center;
-  }
+.ttl_text {
+  color: #2b692e;
+}
 
-  #ttl_landing_meats .ttl_meats{
-      background-color: white;
-      border-radius: 30px;
-      box-shadow: 1px -1px 11px 3px rgb(166 166 166 / 58%);
-      -webkit-box-shadow: 1px -1px 11px 3px rgb(166 166 166 / 58%);
-      -moz-box-shadow: 1px -1px 11px 3px rgba(166,166,166,0.58);
-      text-align: center;
-      line-height: 1.2;
-      text-decoration: none;
-      height: 200px;
-      width: 170px;
-      transform: scale(1);
-      margin: 10px;
-cursor: pointer;
-  }
+.ttl_green h2 {
+  color: #7fad38;
+}
 
-  .ttl_text{
-      color: #2b692e;
-  }
+.ttl_text_small {
+  font-size: 16px;
+}
 
-  .ttl_green h2{
-      color: #7fad38;
-  }
+.ttl_text_medium {
+  font-size: 22px;
+}
 
-  .ttl_text_small{
-      font-size: 16px;
-  }
+.ttl_text_large {
+  font-size: 50px;
+}
 
+#ttl_landing_meats .ttl_meats:hover {
+  transform: scale(1.04);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  line-height: 1.2;
+  font-weight: normal;
+  text-decoration: none;
+  box-shadow: 1px -1px 11px 3px rgb(166 166 166 / 58%);
+  -webkit-box-shadow: 1px -1px 11px 3px rgb(166 166 166 / 58%);
+  -moz-box-shadow: 1px -1px 11px 3px rgba(166, 166, 166, 0.58);
+}
 
-  .ttl_text_medium{
-      font-size: 22px;
-  }
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
 
-  .ttl_text_large{
-      font-size: 50px;
+.ttl_meats:hover .ttl_text {
+  color: #7fad38;
+}
 
-  }
+#ttl_landing_video {
+  position: relative;
+  width: 100%;
+}
 
-  #ttl_landing_meats .ttl_meats:hover {
-      transform: scale(1.04);
-      -webkit-transition: all .3s ease-in-out;
-      -moz-transition: all .3s ease-in-out;
-      -o-transition: all .3s ease-in-out;
-      -ms-transition: all .3s ease-in-out;
-      transition: all .3s ease-in-out;
-      line-height: 1.2;
-      font-weight: normal;
-      text-decoration: none;
-      box-shadow: 1px -1px 11px 3px rgb(166 166 166 / 58%);
-      -webkit-box-shadow: 1px -1px 11px 3px rgb(166 166 166 / 58%);
-      -moz-box-shadow: 1px -1px 11px 3px rgba(166,166,166,0.58);
+#ttl_landing_video:before {
+  position: absolute;
+  bottom: -40px;
+  width: 100%;
+  background-color: #cedf00;
+  height: 132px;
+  min-height: 132px;
+  left: 0;
+  content: "";
+}
 
-  }
+.ttl_bg {
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 309px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  border-radius: 25px;
+  position: relative;
+  z-index: 5;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 
-  a:visited, a:hover, a:active {
-    text-decoration: none;
-   }
+.ttl_bg:before {
+  position: absolute;
+  content: "";
+  height: 92px;
+  background-color: #5aa219d6;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
 
+.ttl_bg:hover {
+  align-items: center;
+  justify-content: center;
+}
 
-  .ttl_meats:hover .ttl_text{
-      color: #7fad38;
-  }
+.ttl_bg:hover:before {
+  height: 100%;
 
-  #ttl_landing_video{
-      position: relative;
-      width: 100%;
-  }
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
 
-  #ttl_landing_video:before {
-      position: absolute;
-      bottom: -40px;
-      width: 100%;
-      background-color: #cedf00;
-      height: 132px;
-      min-height: 132px;
-      left: 0;
-      content: '';
-  }
+.ttl_bg.image_1 {
+  background-image: url(../imgs/01.Clasicos_en_casa.png);
+}
+.ttl_bg.image_2 {
+  background-image: url(../imgs/02.Tips_de_cocina.png);
+}
+.ttl_bg.image_3 {
+  background-image: url(../imgs/03.De_la_refri_la_mesa.png);
+}
+.ttl_bg.image_4 {
+  background-image: url(../imgs/04.Recetas.png);
+}
 
-  .ttl_bg{
-      display: flex;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 309px;
-      align-items: flex-end;
-      justify-content: flex-end;
-      border-radius: 25px;
-      position: relative;
-      z-index: 5;
-      cursor: pointer;
-      -webkit-transition: all .3s ease-in-out;
-      -moz-transition: all .3s ease-in-out;
-      -o-transition: all .3s ease-in-out;
-      -ms-transition: all .3s ease-in-out;
-      transition: all .3s ease-in-out;
-  }
+.white {
+  color: white;
+}
 
-  .ttl_bg:before{
-      position: absolute;
-      content: '';
-      height: 92px;
-      background-color: #5aa219d6;
-      border-bottom-left-radius: 25px;
-      border-bottom-right-radius: 25px;
-      left: 0;
-      right: 0;
-      z-index: 1;
-      -webkit-transition: all .3s ease-in-out;
-      -moz-transition: all .3s ease-in-out;
-      -o-transition: all .3s ease-in-out;
-      -ms-transition: all .3s ease-in-out;
-      transition: all .3s ease-in-out;
+.ttl_text_video {
+  z-index: 1000;
+  padding: 13px 15px;
+  line-height: 1.2;
+  text-align-last: center;
+}
 
-  }
+.ttl_text_video p {
+  padding: 0 25px;
+  text-align: center;
+}
 
-  .ttl_bg:hover{
-      align-items: center;
-      justify-content: center; 
+.ttl_title h2 {
+  display: inline-block;
+  position: relative;
+}
 
-  }
+.ttl_title h2:before {
+  position: absolute;
+  content: "";
+  background-image: url(../imgs/rectangulo_redondeado.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 60px;
+  bottom: 7px;
+  left: -23px;
+  height: 60px;
+  z-index: -1;
+}
+.ttl_text_video h2 {
+  position: relative;
+  display: inline-block;
+}
 
-  .ttl_bg:hover:before{
-      height: 100%;
+.ttl_text_video h2:before {
+  position: absolute;
+  content: "";
+  background-image: url(../imgs/rectangulo_redondeado_2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 27px;
+  bottom: 2px;
+  left: -8px;
+  height: 29px;
+  z-index: -1;
+}
 
-      border-top-left-radius: 25px;
-      border-top-right-radius: 25px;
-  }
+.espace-top {
+  /*margin-top: 40px;*/
+}
 
-  .ttl_bg.image_1{
-      background-image: url(../imgs/01.Clasicos_en_casa.png)
-  }
-  .ttl_bg.image_2{
-      background-image: url(../imgs/02.Tips_de_cocina.png)
-  }
-  .ttl_bg.image_3{
-      background-image: url(../imgs/03.De_la_refri_la_mesa.png)
-  }
-  .ttl_bg.image_4{
-      background-image: url(../imgs/04.Recetas.png)   
-  }
+#ttl_landing_video {
+  position: relative;
+  margin-bottom: 100px;
+}
 
-  .white{
-      color: white;
-  }
+#ttl_landing_video:before {
+  position: absolute;
+}
 
-  .ttl_text_video{
-      z-index: 1000;
-      padding: 13px 15px;
-      line-height: 1.2;
-      text-align-last: center;
+/*Modal*/
 
-  }
+.video_iframe {
+  width: 100%;
+}
 
-  .ttl_text_video p{
-    padding: 0 25px;
-    text-align: center;
-  }
+.modal {
+  display: none;
+}
 
+.modal.is-open {
+  display: block;
+}
 
-  .ttl_title h2{
-      display: inline-block;
-      position: relative;
+.modal {
+  font-family: Intro, sans-serif;
+}
 
-  }
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
 
-  .ttl_title h2:before {
-      position: absolute;
-      content: '';
-      background-image: url(../imgs/rectangulo_redondeado.png);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      width: 60px;
-      bottom: 7px;
-      left: -23px;
-      height: 60px;
-      z-index: -1;
-  }
-  .ttl_text_video h2 {
-      position: relative;
-      display: inline-block;
-  }
+.modal__container {
+  background-color: transparent;
+  padding: 5px;
+  max-width: max-content;
+  height: 100%;
+  width: 50%;
+  border-radius: 0;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
 
-  .ttl_text_video  h2:before{
-      
-      position: absolute;
-      content: '';
-      background-image: url(../imgs/rectangulo_redondeado_2.png);
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      width: 27px;
-      bottom: 2px;
-      left: -8px;
-      height: 29px;
-      z-index: -1;
-      
-  }
-
-
-
-
-
-
-  .espace-top{
-    /*margin-top: 40px;*/
-  }
-
-  #ttl_landing_video{
-      position: relative;
-      margin-bottom: 100px;
-  }
-
-  #ttl_landing_video:before{
-      position: absolute;
-  }
-
-
-
-  /*Modal*/
-
-  .video_iframe {
-      width: 100%;
-  }
-
-  .modal {
-      display: none;
-  }
-
-  .modal.is-open {
-      display: block;
-  }
-
-
-  .modal {
-      font-family: Intro, sans-serif;
-  }
-
-
-
-  .modal__overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(0, 0, 0, 0.75);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 10;
-  }
-
+@supports (display: flex) {
   .modal__container {
-      background-color: transparent;
-      padding: 5px;
-      max-width: max-content;
-      height: 100%;
-      width: 50%;
-      border-radius: 0;
-      overflow-y: auto;
-      box-sizing: border-box;
+    height: initial;
+    max-height: 100vh;
   }
+}
+.modal__header {
+  position: relative;
+  display: block;
+  height: 31px;
+  margin-bottom: 10px;
+}
 
-  @supports (display: flex) {
+.modal__title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  color: #00449e;
+  box-sizing: border-box;
+}
 
-      .modal__container {
-          height: initial;
-          max-height: 100vh;
-      }
+.modal__close {
+  position: absolute;
+  top: 0;
+  left: auto;
+  background: white;
+  border: 0;
+  cursor: pointer;
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid #d2de34;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 23px;
+  color: #7fad38;
+  right: 0;
+}
 
-  }
-  .modal__header {
-      position: relative;
-      display: block;
-      height: 31px;
-      margin-bottom: 10px;
-  }
+button:focus {
+  outline: 1px dotted;
+  outline: none !important;
+}
 
-
+@supports (display: flex) {
   .modal__title {
-      position: absolute;
-      top: 20px;
-      left: 20px;
-      margin-top: 0;
-      margin-bottom: 0;
-      font-weight: 600;
-      font-size: 1.25rem;
-      line-height: 1.25;
-      color: #00449e;
-      box-sizing: border-box;
+    position: static;
   }
+}
 
-  .modal__close {
-      position: absolute;
-      top: 0;
-      left: auto;
-      background: white;
-      border: 0;
-      cursor: pointer;
-      margin: 0px;
-      padding: 0px;
-      border: 1px solid #d2de34;
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      font-size: 23px;
-      color: #7fad38;
-      right: 0;
-  }
+.modal__header .modal__close:before {
+  content: "\2715";
+}
 
-  button:focus {
-      outline: 1px dotted;
-      outline: none !important;
-  }
+.modal__content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.8);
+}
 
-
-  @supports (display: flex) {
-
-      .modal__title {
-          position: static;
-      }
-
-
-
-  }
-
-  .modal__header .modal__close:before {
-      content: "\2715";
-  }
-
+@supports (display: flex) {
   .modal__content {
-      margin-top: 10px;
-      margin-bottom: 10px;
-      color: rgba(0, 0, 0, .8);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
   }
+}
 
-  @supports (display: flex) {
+.modal__btn {
+  font-size: 0.875rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #e6e6e6;
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 0.25rem;
+  border-style: none;
+  border-width: 0;
+  cursor: pointer;
+  -webkit-appearance: button;
+  text-transform: none;
+  overflow: visible;
+  line-height: 1.15;
+  margin: 0;
+  will-change: transform;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
 
-      .modal__content {
-          margin-top: 2rem;
-          margin-bottom: 2rem;
-          line-height: 1.5;
-      }
+.modal__btn-primary {
+  background-color: #00449e;
+  color: #fff;
+}
 
-  }
-
-  .modal__btn {
-      font-size: .875rem;
-      padding-left: 1rem;
-      padding-right: 1rem;
-      padding-top: .5rem;
-      padding-bottom: .5rem;
-      background-color: #e6e6e6;
-      color: rgba(0, 0, 0, .8);
-      border-radius: .25rem;
-      border-style: none;
-      border-width: 0;
-      cursor: pointer;
-      -webkit-appearance: button;
-      text-transform: none;
-      overflow: visible;
-      line-height: 1.15;
-      margin: 0;
-      will-change: transform;
-      -moz-osx-font-smoothing: grayscale;
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-      -webkit-transform: translateZ(0);
-      transform: translateZ(0);
-      transition: -webkit-transform .25s ease-out;
-      transition: transform .25s ease-out;
-      transition: transform .25s ease-out, -webkit-transform .25s ease-out;
-  }
-
-  .modal__btn-primary {
-      background-color: #00449e;
-      color: #fff;
-  }
-
-  /**************************
+/**************************
   Demo Animation Style
   **************************/
 
-  @keyframes mmfadeIn {
-      from {
-          opacity: 0;
-      }
-
-      to {
-          opacity: 1;
-      }
+@keyframes mmfadeIn {
+  from {
+    opacity: 0;
   }
 
-  @keyframes mmfadeOut {
-      from {
-          opacity: 1;
-      }
+  to {
+    opacity: 1;
+  }
+}
 
-      to {
-          opacity: 0;
-      }
+@keyframes mmfadeOut {
+  from {
+    opacity: 1;
   }
 
-  @keyframes mmslideIn {
-      from {
-          transform: translateY(15%);
-      }
+  to {
+    opacity: 0;
+  }
+}
 
-      to {
-          transform: translateY(0);
-      }
+@keyframes mmslideIn {
+  from {
+    transform: translateY(15%);
   }
 
-  @keyframes mmslideOut {
-      from {
-          transform: translateY(0);
-      }
+  to {
+    transform: translateY(0);
+  }
+}
 
-      to {
-          transform: translateY(-10%);
-      }
+@keyframes mmslideOut {
+  from {
+    transform: translateY(0);
   }
 
-  .micromodal-slide {
-      display: none;
+  to {
+    transform: translateY(-10%);
   }
+}
 
-  .micromodal-slide.is-open {
-      display: block;
-  }
+.micromodal-slide {
+  display: none;
+}
 
-  .micromodal-slide[aria-hidden="false"] .modal__overlay {
-      animation: mmfadeIn .3s cubic-bezier(0.0, 0.0, 0.2, 1);
-  }
+.micromodal-slide.is-open {
+  display: block;
+}
 
-  .micromodal-slide[aria-hidden="false"] .modal__container {
-      animation: mmslideIn .3s cubic-bezier(0, 0, .2, 1);
-  }
+.micromodal-slide[aria-hidden="false"] .modal__overlay {
+  animation: mmfadeIn 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
 
-  .micromodal-slide[aria-hidden="true"] .modal__overlay {
-      animation: mmfadeOut .3s cubic-bezier(0.0, 0.0, 0.2, 1);
-  }
+.micromodal-slide[aria-hidden="false"] .modal__container {
+  animation: mmslideIn 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
 
-  .micromodal-slide[aria-hidden="true"] .modal__container {
-      animation: mmslideOut .3s cubic-bezier(0, 0, .2, 1);
-  }
+.micromodal-slide[aria-hidden="true"] .modal__overlay {
+  animation: mmfadeOut 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
 
-  .micromodal-slide .modal__container,
-  .micromodal-slide .modal__overlay {
-      will-change: transform;
-  }
+.micromodal-slide[aria-hidden="true"] .modal__container {
+  animation: mmslideOut 0.3s cubic-bezier(0, 0, 0.2, 1);
+}
 
+.micromodal-slide .modal__container,
+.micromodal-slide .modal__overlay {
+  will-change: transform;
+}
 
+.hide-lg {
+  display: none !important;
+}
+.show-lg {
+  display: block !important;
+}
 
-  .hide-lg{display:none !important}
-  .show-lg{display:block !important}
-
-  /* ==========================================================================
+/* ==========================================================================
   Responsive Mobile
   ========================================================================== */
 
-  @media screen and (max-width: 1200px) {/*md*/
+@media screen and (max-width: 1200px) {
+  /*md*/
 
-
-      .show-md{display:block !important}
-      .hide-md{display:none !important}
-
+  .ttl_text_video p {
+    font-size: 14px;
   }
-  @media screen and (max-width: 991px) {/*sm*/
-
-
-      .show-sm{display:block !important}
-      .hide-sm{display:none !important}
+  .ttl_text_medium {
+    font-size: 18px;
   }
-  @media screen and (max-width: 767px) {/*xs menu movil*/
-
-
-      .video_iframe iframe{
-          width: 100%;
-      }
-      .modal__container {
-          background-color: transparent;
-          padding: 5px;
-          height: 100%;
-          width: auto;
-          border-radius: 0;
-          overflow-y: auto;
-          box-sizing: border-box;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-      }
-
-      #ttl_landing_meats .ttl_meats{
-          margin: auto;
-      }
-
-      #ttl_landing_meats .ttl_meats{
-          height: 170px;
-          width: auto;
-          margin-bottom: 20px;
-      }
-
-      .ttl_text_small {
-          font-size: 12px;
-      }
-
-      .ttl_text_medium {
-          font-size: 18px;
-      }
-
-      #ttl_landing_meats .ttl_meats:hover{
-          transform:scale(none);
-      }
-
-      .ttl_bg{
-          margin-bottom: 30px;
-      }
-
-      .show-xs{display:block !important}
-      .hide-xs{display:none !important}
+  .show-md {
+    display: block !important;
   }
+  .hide-md {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  /*sm*/
+
+  .ttl_text_video p {
+    font-size: 14px;
+  }
+
+  .ttl_text_medium {
+    font-size: 18px;
+  }
+
+  .video_iframe iframe {
+    width: 100%;
+  }
+
+  .show-sm {
+    display: block !important;
+  }
+  .hide-sm {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  /*xs menu movil*/
+
+  .video_iframe iframe {
+    width: 100%;
+  }
+  .modal__container {
+    background-color: transparent;
+    padding: 5px;
+    height: 100%;
+    width: auto;
+    border-radius: 0;
+    overflow-y: auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #ttl_landing_meats .ttl_meats {
+    margin: auto;
+  }
+
+  #ttl_landing_meats .ttl_meats {
+    height: 170px;
+    width: 140px !important;
+    margin-bottom: 20px;
+  }
+
+  .ttl_text_small {
+    font-size: 12px;
+  }
+
+  .ttl_text_medium {
+    font-size: 18px;
+  }
+
+  #ttl_landing_meats .ttl_meats:hover {
+    transform: scale(none);
+  }
+
+  .ttl_bg {
+    margin-bottom: 30px;
+  }
+
+  .glide__slides {
+    padding: 60px !important;
+    justify-content: center;
+  }
+
+  .show-xs {
+    display: block !important;
+  }
+  .hide-xs {
+    display: none !important;
+  }
+}
 
 /****************  FIN BLOQUE DAVID  ****************/
 
-
-
-/****************  INICIO BLOQUE JORGE  ****************/ 
+/****************  INICIO BLOQUE JORGE  ****************/
 
 /*** INICIO BLOQUE GENERALIDADES ***/
-  .font-style-italic{
-    font-style: italic;
-  }
-  .bloque-position-relative{
-    position: relative;
-  }
-  .text-align-center{
-    text-align: center;
-  }
-  img{
-    max-width: 100%;
-  }
-  .display-flex-row-center{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
+.font-style-italic {
+  font-style: italic;
+}
+.bloque-position-relative {
+  position: relative;
+}
+.text-align-center {
+  text-align: center;
+}
+img {
+  max-width: 100%;
+}
+.display-flex-row-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 /*** FIN BLOQUE GENERALIDADES ***/
 
-
 /*** INICIO BLOQUE RECETA SEMANA ***/
-  .ttl-landing-receta-semana-video{
-    border-radius: 32px;
-    box-shadow: 5px 5px 0px #7fad38bd;
-    background: linear-gradient(#7fad38, #7fad38);
-  }
-  .ttl-landing-receta-semana-video-logo{
-    position: absolute;
-    z-index: 9;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-  .ttl-landing-receta-semana-video-titulo{
-    position: absolute;
-    z-index: 10;
-    bottom: -5%;
-    padding: 11px;
-    background-color: #ffffff;
-    border-radius: 15px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-    font-size: 25px;
-    color: #7fad38;
-  }
-  .ttl-landing-receta-semana-video-descripcion-contenedor{
-    padding: 28px;
-  }
-  .ttl-landing-receta-semana-video-descripcion{
-    font-size: 28px;
-    color: #fefdfb;
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-  .ttl-landing-receta-semana-video-redes-sociales ul{
-    overflow: hidden;
-  }
-  .ttl-landing-receta-semana-video-redes-sociales ul li{
-    float: right;
-    margin-left: 10px;
-  }
-  .ttl-landing-receta-semana-video-redes-sociales li a {
-    display: block;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    background: #d2de34;
-    color: #7fad38;
-    text-align: center;
-    padding: 2px 0px;
-    margin-top: 3px;
-    border: 1px solid #d2de34;
-    transition: all 0.5s ease-out;
-  }
-  .ttl-landing-receta-semana-video-marca{
-    font-size: 28px;
-    color: #fefdfb;
-    margin-left: 10px;
-    line-height: 35px;
-  }
+.ttl-landing-receta-semana-video {
+  border-radius: 32px;
+  box-shadow: 5px 5px 0px #7fad38bd;
+  background: linear-gradient(#7fad38, #7fad38);
+}
+.ttl-landing-receta-semana-video-logo {
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.ttl-landing-receta-semana-video-titulo {
+  position: absolute;
+  z-index: 10;
+  bottom: -5%;
+  padding: 11px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  font-size: 25px;
+  color: #7fad38;
+}
+.ttl-landing-receta-semana-video-descripcion-contenedor {
+  padding: 28px;
+}
+.ttl-landing-receta-semana-video-descripcion {
+  font-size: 28px;
+  color: #fefdfb;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.ttl-landing-receta-semana-video-redes-sociales ul {
+  overflow: hidden;
+}
+.ttl-landing-receta-semana-video-redes-sociales ul li {
+  float: right;
+  margin-left: 10px;
+}
+.ttl-landing-receta-semana-video-redes-sociales li a {
+  display: block;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background: #d2de34;
+  color: #7fad38;
+  text-align: center;
+  padding: 2px 0px;
+  margin-top: 3px;
+  border: 1px solid #d2de34;
+  transition: all 0.5s ease-out;
+}
+.ttl-landing-receta-semana-video-marca {
+  font-size: 28px;
+  color: #fefdfb;
+  margin-left: 10px;
+  line-height: 35px;
+}
 
-  .ttl-landing-receta-semana-contenedor{
-    padding-left: 30px;
-  }
-  .ttl-landing-receta-semana-titulo-contenedor{
-    font-size: 65px;
-    color: #7fad38;
-    padding-bottom: 10px;
-  }
-  .ttl-landing-receta-semana-titulo-contenedor p:before {
-    position: absolute;
-    content: '';
-    background-image: url(../imgs/rectangulo_redondeado.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 60px;
-    top: -6%;
-    left: -12px;
-    height: 60px;
-    z-index: -1;
-  }
-  .ttl-landing-receta-semana-titulo{
-    line-height: 53px;
-  }
-  .ttl-landing-receta-semana-descripcion-contenedor{
-    padding-bottom: 20px;
-  }
-  .ttl-landing-receta-semana-descripcion{
-    font-size: 25px;
-    color: #2b692e;
-    padding: 10px;
-    padding-left: 0;
-  }
-  .ttl-landing-receta-semana-descripcion span{
-    border-bottom: 1px solid #2b692e;
-  }
-  .ttl-landing-receta-semana-ingredientes{
-    padding-bottom: 20px;
-  }
-  .ttl-landing-receta-semana-ingredientes-titulo{
-    font-size: 20px;
-    color: #2b692e;
-    padding-bottom: 10px;
-  }
-  .ttl-landing-receta-semana-ingredientes-lista li{
-    font-size: 15px;
-    color: #000000;
-    font-weight: 400;
-    line-height: 26px;
-  }
-  .ttl-landing-receta-semana-ingredientes-lista li:before { 
-    content: "- ";
-  }
-  .ttl-landing-receta-semana-preparacion{
-      padding-bottom: 20px;
-  }
-  .pentagono-horizontal{
-    background: #d2de34;
-    position: relative;
-    display: inline-block;
-    margin-right: 10px;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-  }
-  .pentagono-horizontal-size{
-    width: 15px;
-    height: 21px;
-  }
-  .pentagono-horizontal:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 100%;
-    border-top: 11px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 10px solid #d2de34;
-  }
-  .ttl-landing-receta-semana-preparacion-titulo{
-    font-size: 20px;
-    color: #2b692e;
-    padding-bottom: 10px;
-  }
-  .ttl-landing-receta-semana-video:hover{
-    box-shadow: 5px 5px 0px #2b692e;
-    transition: all .3s ease-in-out;
-  }
-  .ttl-landing-receta-semana-preparacion-lista{
-    list-style: inherit;
-    padding-left: 18px;
-  }
-  .ttl-landing-receta-semana-preparacion-lista li{
-    list-style-type: decimal;
-    list-style-position: initial;
-    font-size: 15px;
-    color: #000000;
-    font-weight: 400;
-    line-height: 26px;
-  }
-  .icon-youtube-hover:hover{
-    cursor: pointer;
-  }
-  .ttl-landing-receta-semana-video-redes-sociales li a:hover{
-    color: #2b692e;
-  }
-  .icon-youtube-hover img:hover {
-      transform: scale(1.1);
-      -webkit-transition: all .3s ease-in-out;
-      -moz-transition: all .3s ease-in-out;
-      -o-transition: all .3s ease-in-out;
-      -ms-transition: all .3s ease-in-out;
-      transition: all .3s ease-in-out;
-      line-height: 1.2;
-      font-weight: normal;
-      text-decoration: none;
-
-  }
+.ttl-landing-receta-semana-contenedor {
+  padding-left: 30px;
+}
+.ttl-landing-receta-semana-titulo-contenedor {
+  font-size: 65px;
+  color: #7fad38;
+  padding-bottom: 10px;
+}
+.ttl-landing-receta-semana-titulo-contenedor p:before {
+  position: absolute;
+  content: "";
+  background-image: url(../imgs/rectangulo_redondeado.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 60px;
+  top: -6%;
+  left: -12px;
+  height: 60px;
+  z-index: -1;
+}
+.ttl-landing-receta-semana-titulo {
+  line-height: 53px;
+}
+.ttl-landing-receta-semana-descripcion-contenedor {
+  padding-bottom: 20px;
+}
+.ttl-landing-receta-semana-descripcion {
+  font-size: 25px;
+  color: #2b692e;
+  padding: 10px;
+  padding-left: 0;
+}
+.ttl-landing-receta-semana-descripcion span {
+  border-bottom: 1px solid #2b692e;
+}
+.ttl-landing-receta-semana-ingredientes {
+  padding-bottom: 20px;
+}
+.ttl-landing-receta-semana-ingredientes-titulo {
+  font-size: 20px;
+  color: #2b692e;
+  padding-bottom: 10px;
+}
+.ttl-landing-receta-semana-ingredientes-lista li {
+  font-size: 15px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 26px;
+}
+.ttl-landing-receta-semana-ingredientes-lista li:before {
+  content: "- ";
+}
+.ttl-landing-receta-semana-preparacion {
+  padding-bottom: 20px;
+}
+.pentagono-horizontal {
+  background: #d2de34;
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.pentagono-horizontal-size {
+  width: 15px;
+  height: 21px;
+}
+.pentagono-horizontal:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  border-top: 11px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #d2de34;
+}
+.ttl-landing-receta-semana-preparacion-titulo {
+  font-size: 20px;
+  color: #2b692e;
+  padding-bottom: 10px;
+}
+.ttl-landing-receta-semana-video:hover {
+  box-shadow: 5px 5px 0px #2b692e;
+  transition: all 0.3s ease-in-out;
+}
+.ttl-landing-receta-semana-preparacion-lista {
+  list-style: inherit;
+  padding-left: 18px;
+}
+.ttl-landing-receta-semana-preparacion-lista li {
+  list-style-type: decimal;
+  list-style-position: initial;
+  font-size: 15px;
+  color: #000000;
+  font-weight: 400;
+  line-height: 26px;
+}
+.icon-youtube-hover:hover {
+  cursor: pointer;
+}
+.ttl-landing-receta-semana-video-redes-sociales li a:hover {
+  color: #2b692e;
+}
+.icon-youtube-hover img:hover {
+  transform: scale(1.1);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  line-height: 1.2;
+  font-weight: normal;
+  text-decoration: none;
+}
 /*** FIN BLOQUE RECETA SEMANA ***/
 
-
 /*** INICIO BLOQUE SEPARADOR ***/
-  .ttl-landing-separador{
-    padding: 40px 0;
-  }
-  .ttl-landing-separador-font-size{
-    font-size: 22px;
-  }
-  .ttl-landing-verde-claro{
-    color: #7fad38;
-  }
-  .ttl-landing-verde-oscuro{
-    color: #2b692e;
-  }
-  .ttl-landing-pentagono-horizontal {
-    background: #d2de34;
-    position: relative;
-    display: inline-block;
-    margin-right: 20px;
-    border-top-left-radius: 3px;
-    border-bottom-left-radius: 3px;
-  }
-  .ttl-landing-pentagono-horizontal-size{
-    width: 13px;
-    height: 16px;
-  }
-  .ttl-landing-pentagono-horizontal:before {
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: 100%;
-    border-top: 8px solid transparent;
-    border-bottom: 8px solid transparent;
-    border-left: 8px solid #d2de34;
-  }
+.ttl-landing-separador {
+  padding: 40px 0;
+}
+.ttl-landing-separador-font-size {
+  font-size: 22px;
+}
+.ttl-landing-verde-claro {
+  color: #7fad38;
+}
+.ttl-landing-verde-oscuro {
+  color: #2b692e;
+}
+.ttl-landing-pentagono-horizontal {
+  background: #d2de34;
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+.ttl-landing-pentagono-horizontal-size {
+  width: 13px;
+  height: 16px;
+}
+.ttl-landing-pentagono-horizontal:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 100%;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid #d2de34;
+}
 /*** FIN BLOQUE SEPARADOR ***/
 
-
 /*** INICIO BLOQUE CAZADORES MITOS ***/
-  .ttl-landing-cazadoras-mitos{
-    margin-bottom: 70px;
-    width: 1340px;
-    max-width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .ttl-landing-cazadoras-mitos-fondo-contenedor:before{
-    position: absolute;
-    top: 100%;
-    width: 100%;
-    background-color: #7fad38;
-    height: 66px;
-    min-height: 63px;
-    content: '';
-  }
+.ttl-landing-cazadoras-mitos {
+  margin-bottom: 70px;
+  width: 1340px;
+  max-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.ttl-landing-cazadoras-mitos-fondo-contenedor:before {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  background-color: #7fad38;
+  height: 66px;
+  min-height: 63px;
+  content: "";
+}
 
-  .ttl-landing-cazadoras-mitos-fondo-contenedor{
-    min-height: 720px;
-  }
-  .container-cazadoras-mitos-fondo{
-    position: absolute;
-    z-index: -1;
-  }
-  .ttl-landing-cazadoras-mitos-descripcion-contenedor{
-    padding-top: 100px;
-  }
-  .ttl-landing-cazadoras-mitos-descripcion{
-    margin-left: -20px;
-  }
-  .ttl-landing-cazadoras-mitos-titulo{
-    font-size: 53px;
-    color: #fefdfb;
-    line-height: 50px;
-    padding-bottom: 40px;
-    padding-top: 10px;
-  }
-  .ttl-landing-cazadoras-mitos-titulo p:before {
-    position: absolute;
-    content: '';
-    background-image: url(../imgs/rectangulo_redondeado.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 60px;
-    top: -22%;
-    left: -22px;
-    height: 60px;
-    z-index: -1;
-  }
-  .ttl-landing-cazadoras-mitos-sub-titulo{
-    padding-bottom: 40px;
-    text-align: center;
-    font-size: 15px;
-    color: #fefdfb;
-    max-width: 90%;
-  }
-  .figura-circulo::before{
-    content: '';
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    background-color: #2b692e;
-    top: -11px;
-    left: 44px;
-    position: absolute;
-    z-index: -1;
-  }
-  .ttl-landing-cazadoras-mitos-numeracion{
-    font-size: 25px;
-    color: #fefdfb;
-  }
-  .ttl-landing-cazadoras-mitos-detalle{
-    font-size: 27px;
-    color: #fefdfb;
-    margin-left: -30px;
-    line-height: 28px;
-  }
-  .ttl-landing-cazadoras-mitos-icons{
-    max-width: 90%;
-  }
-  .icons-mitos{
-    padding-top: 37px;
-    text-align: center;
-  }
-  .icons-mitos-size{
-    width: 55%;
-  }
-  .ttl-landing-cazadoras-mitos-descripcion-recomendacion{
-    font-size: 14px;
-    color: #fefdfb;
-    padding-top: 10px;
-    line-height: 20px;
-  }
-  .ttl-landing-cazadoras-mitos-descripcion-natural{
-    font-size: 24px;
-    color: #fefdfb;
-    line-height: 24px;
-    padding-bottom: 1px;
-  }
-  .ttl-landing-cazadoras-mitos-descripcion-preparacion{
-    font-size: 14px;
-    color: #fefdfb;
-    line-height: 15px;
-  }
-  .ttl-landing-cazadoras-mitos-descripcion-recomendacion span{
-    font-size: 15px;
-  }
-  .ttl-landing-cazadoras-mitos-pie{
-    font-size: 17px;
-    color: #fefdfb;
-    text-align: center;
-    padding: 22px 0;
-    background: #7fad38;
-    position: absolute;
-    z-index: 9;
-    top: 100%;
-    width: 100%;
-  }
+.ttl-landing-cazadoras-mitos-fondo-contenedor {
+  min-height: 720px;
+}
+.container-cazadoras-mitos-fondo {
+  position: absolute;
+  z-index: -1;
+}
+.ttl-landing-cazadoras-mitos-descripcion-contenedor {
+  padding-top: 100px;
+}
+.ttl-landing-cazadoras-mitos-descripcion {
+  margin-left: -20px;
+}
+.ttl-landing-cazadoras-mitos-titulo {
+  font-size: 53px;
+  color: #fefdfb;
+  line-height: 50px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+.ttl-landing-cazadoras-mitos-titulo p:before {
+  position: absolute;
+  content: "";
+  background-image: url(../imgs/rectangulo_redondeado.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 60px;
+  top: -22%;
+  left: -22px;
+  height: 60px;
+  z-index: -1;
+}
+.ttl-landing-cazadoras-mitos-sub-titulo {
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 15px;
+  color: #fefdfb;
+  max-width: 90%;
+}
+.figura-circulo::before {
+  content: "";
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #2b692e;
+  top: -11px;
+  left: 44px;
+  position: absolute;
+  z-index: -1;
+}
+.ttl-landing-cazadoras-mitos-numeracion {
+  font-size: 25px;
+  color: #fefdfb;
+}
+.ttl-landing-cazadoras-mitos-detalle {
+  font-size: 27px;
+  color: #fefdfb;
+  margin-left: -30px;
+  line-height: 28px;
+}
+.ttl-landing-cazadoras-mitos-icons {
+  max-width: 90%;
+}
+.icons-mitos {
+  padding-top: 37px;
+  text-align: center;
+}
+.icons-mitos-size {
+  width: 55%;
+}
+.ttl-landing-cazadoras-mitos-descripcion-recomendacion {
+  font-size: 14px;
+  color: #fefdfb;
+  padding-top: 10px;
+  line-height: 20px;
+}
+.ttl-landing-cazadoras-mitos-descripcion-natural {
+  font-size: 24px;
+  color: #fefdfb;
+  line-height: 24px;
+  padding-bottom: 1px;
+}
+.ttl-landing-cazadoras-mitos-descripcion-preparacion {
+  font-size: 14px;
+  color: #fefdfb;
+  line-height: 15px;
+}
+.ttl-landing-cazadoras-mitos-descripcion-recomendacion span {
+  font-size: 15px;
+}
+.ttl-landing-cazadoras-mitos-pie {
+  font-size: 17px;
+  color: #fefdfb;
+  text-align: center;
+  padding: 22px 0;
+  background: #7fad38;
+  position: absolute;
+  z-index: 9;
+  top: 100%;
+  width: 100%;
+}
 /*** FIN BLOQUE CAZADORES MITOS ***/
 
 /****************  FIN BLOQUE JORGE  ****************/
 
-
-
 /*** INICIO SECCION JHONATAN ***/
 
-    .ttl-landing-meals-wrap{
-        width : 1200px;
-        margin : 0px auto;
-        margin-top: 30px;
-    }
+.ttl-landing-meals-wrap {
+  width: 1200px;
+  margin: 0px auto;
+  margin-top: 30px;
+}
 
-    .ttl-landing-meals-baner-border{
-        /*
+.ttl-landing-meals-baner-border {
+  /*
         background-color: #7fad38;
         border-radius: 20px;
         position : relative;
         width: 1140;
         height: 350px;    
         */
-        border-radius: 32px;
-        box-shadow: 8px 8px 0px #7fad38bd;
-        background: linear-gradient(#7fad38, #7fad38);
-            position: relative;
-            margin-bottom: 50px;
-    }
+  border-radius: 32px;
+  box-shadow: 8px 8px 0px #7fad38bd;
+  background: linear-gradient(#7fad38, #7fad38);
+  position: relative;
+  margin-bottom: 50px;
+}
 
-    #ttl-landing-meals-imgBaner{
-        /*
+#ttl-landing-meals-imgBaner {
+  /*
         border-radius: 20px;
         position: absolute;
         left: -10;
@@ -979,34 +974,34 @@ cursor: pointer;
         width: 1140px;
         height: 350px;
         */
-    }
-    .ttl-landing-meals-row{
-        margin-top: 20;
-        margin-left: 0px;
-        width : 100%;
-        float: right;
-    }
-    .ttl-landing-meals-col{
-        width: 380px;
-        float: left;
-        margin-right: 20px;
-    }
-    .ttl-landing-meals-col:first-child{
-        margin-left: 0px;
-    }
-    .ttl-landing-meals-col-v{
-        width: 580px;
-        float: left;
-        margin-right: 25px;
-    }
-    .ttl-landing-meals-col-v:first-child{
-        margin-left: 0px;
-    }
-    .ttl-landing-meals-col-v:last-child{
-        margin-right: 0px;
-    }
-    #ttl-landing-meals-img-square{
-        /*
+}
+.ttl-landing-meals-row {
+  margin-top: 20;
+  margin-left: 0px;
+  width: 100%;
+  float: right;
+}
+.ttl-landing-meals-col {
+  width: 380px;
+  float: left;
+  margin-right: 20px;
+}
+.ttl-landing-meals-col:first-child {
+  margin-left: 0px;
+}
+.ttl-landing-meals-col-v {
+  width: 580px;
+  float: left;
+  margin-right: 25px;
+}
+.ttl-landing-meals-col-v:first-child {
+  margin-left: 0px;
+}
+.ttl-landing-meals-col-v:last-child {
+  margin-right: 0px;
+}
+#ttl-landing-meals-img-square {
+  /*
         border-radius: 20px;
         position: absolute;
         left: -10;
@@ -1014,10 +1009,10 @@ cursor: pointer;
         width: 370px;
         height: 370px;  
         */
-    }
+}
 
-    #ttl-landing-meals-img-rectangle-v{
-        /*
+#ttl-landing-meals-img-rectangle-v {
+  /*
         border-radius: 20px;
         position: absolute;
         left: -10;
@@ -1025,18 +1020,18 @@ cursor: pointer;
         width: 380;
         height: 600;  
         */
-    }
-    #ttl-landing-meals-img-rectangle-l-h{
-        border-radius: 20px;
-        position: absolute;
-        left: -10;
-        top: -10;
-        width: 540px;
-        height: 380px; 
-        overflow: hidden; 
-    }
-    #ttl-landing-meals-img-rectangle-h{
-        /*
+}
+#ttl-landing-meals-img-rectangle-l-h {
+  border-radius: 20px;
+  position: absolute;
+  left: -10;
+  top: -10;
+  width: 540px;
+  height: 380px;
+  overflow: hidden;
+}
+#ttl-landing-meals-img-rectangle-h {
+  /*
         border-radius: 20px;
         position: absolute;
         left: -10;
@@ -1044,9 +1039,9 @@ cursor: pointer;
         width: 380;
         height: 280px;  
         */
-    }
-    .ttl-landing-meals-border-rectangle-h{
-        /*
+}
+.ttl-landing-meals-border-rectangle-h {
+  /*
         position: relative;
         float: left;
         width : 380px;
@@ -1057,19 +1052,19 @@ cursor: pointer;
         background-color: #7fad38;
         cursor: pointer;
         */
-    }
-    .ttl-landing-meals-border-rectangle-h:first-child{
-      margin-left: 0;
-      margin-right: 0;
-    }
+}
+.ttl-landing-meals-border-rectangle-h:first-child {
+  margin-left: 0;
+  margin-right: 0;
+}
 
-    .ttl-landing-meals-border-rectangle-h:last-child{
-        margin-right: 0;
-        margin-left: 0;
-    }
+.ttl-landing-meals-border-rectangle-h:last-child {
+  margin-right: 0;
+  margin-left: 0;
+}
 
-    .ttl-landing-meals-border-square{
-        /*
+.ttl-landing-meals-border-square {
+  /*
         position: relative;
         float: left;
         width : 370px;
@@ -1080,19 +1075,19 @@ cursor: pointer;
         background-color: #7fad38;
         cursor: pointer;
         */
-        border-radius: 32px;
-        box-shadow: 8px 8px 0px #7fad38bd;
-        background: linear-gradient(#7fad38, #7fad38);
-        position: relative;
-    }
-    .ttl-landing-meals-border-square:last-child{
-        margin-right: 0px;
-    }
-    .ttl-landing-meals-border-square:first-child{
-        margin-left: 0px;
-    }
-    .ttl-landing-meals-border-rectangle{
-        /*
+  border-radius: 32px;
+  box-shadow: 8px 8px 0px #7fad38bd;
+  background: linear-gradient(#7fad38, #7fad38);
+  position: relative;
+}
+.ttl-landing-meals-border-square:last-child {
+  margin-right: 0px;
+}
+.ttl-landing-meals-border-square:first-child {
+  margin-left: 0px;
+}
+.ttl-landing-meals-border-rectangle {
+  /*
         position: relative;
         float: left;
         width : 380px;
@@ -1103,47 +1098,46 @@ cursor: pointer;
         background-color: #7fad38;
         cursor: pointer;
         */
-    }
-    .ttl-landing-meals-border-rectangle-l-h{
-        position: relative;
-        float: left;
-        width : 100%;
-        height: 380px;
-        border-radius: 20px;
-        margin :20px;
-        overflow: hidden;
-        background-color: #7fad38;
-        cursor: pointer;
-    }
+}
+.ttl-landing-meals-border-rectangle-l-h {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 380px;
+  border-radius: 20px;
+  margin: 20px;
+  overflow: hidden;
+  background-color: #7fad38;
+  cursor: pointer;
+}
 
+.ttl-landing-meals-rectangle-m {
+  width: 70px;
+  height: 100px;
+  background-color: #e1e878;
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+}
+.ttl-landing-meals-rectangle-l {
+  width: 70px;
+  height: 100px;
+  background-color: #e1e878;
+  position: absolute;
+  top: 190px;
+  left: -10px;
+}
 
-    .ttl-landing-meals-rectangle-m{
-        width: 70px;
-        height: 100px;
-        background-color: #e1e878;
-        position: absolute;
-        bottom: 20%;
-        left: 0;
-    }
-    .ttl-landing-meals-rectangle-l{
-        width : 70px;
-        height: 100px;
-        background-color: #e1e878;
-        position: absolute;
-        top: 190px;
-        left: -10px;
-    }
-
-    .ttl-landing-meals-rectangle-s  {
-        width : 60px;
-        height: 80px;
-        background-color: #e1e878;
-        position: absolute;
-        top: 10%;
-        left: 0;
-    }
-    .ttl-landing-meals-rectangle-s-h{
-        /*
+.ttl-landing-meals-rectangle-s {
+  width: 60px;
+  height: 80px;
+  background-color: #e1e878;
+  position: absolute;
+  top: 10%;
+  left: 0;
+}
+.ttl-landing-meals-rectangle-s-h {
+  /*
         width : 60px;
         height: 80px;
         background-color: #e1e878;
@@ -1151,264 +1145,260 @@ cursor: pointer;
         top: 175px;
         left: -10px;
         */
-            width: 70px;
-        height: 100px;
-        background-color: #e1e878;
-        position: absolute;
-        bottom: 20%;
-        left: 0;
-    }
-    .ttl-landing-meals-rectangle-s-v{
-        
-        width : 60px;
-        height: 80px;
-        background-color: #e1e878;
-        position: absolute;
-        top: 40px;
-        left: -10px;
+  width: 70px;
+  height: 100px;
+  background-color: #e1e878;
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+}
+.ttl-landing-meals-rectangle-s-v {
+  width: 60px;
+  height: 80px;
+  background-color: #e1e878;
+  position: absolute;
+  top: 40px;
+  left: -10px;
+}
 
-    }
+.ttl-landing-meals-text-carnede-m {
+  font-size: 33px;
+  position: absolute;
+  bottom: 34%;
+  left: 35px;
+  color: #2b692e;
+}
 
-    .ttl-landing-meals-text-carnede-m{
-        font-size: 33px;
-        position: absolute;
-        bottom: 34%;
-        left: 35px;
-        color: #2b692e;
+.ttl-landing-meals-text-carnede-s {
+  font-size: 50px;
+  position: absolute;
+  bottom: 20%;
+  left: 35px;
+  color: #2b692e;
+}
 
-    }
+.ttl-landing-meals-text-tipocarne-m {
+  font-size: 55px;
+  position: absolute;
+  bottom: 17%;
+  left: 35px;
+  color: #2b692e;
+  font-weight: 600;
+}
 
-    .ttl-landing-meals-text-carnede-s {
-        font-size: 50px;
-        position: absolute;
-        bottom: 20%;
-        left: 35px;
-        color: #2b692e;
-    }
+.ttl-landing-meals-text-carnes-s {
+  font-size: 30px;
+  position: absolute;
+  color: #2b692e;
+  top: 9%;
+  left: 36px;
+}
 
-    .ttl-landing-meals-text-tipocarne-m{
-            font-size: 55px;
-        position: absolute;
-        bottom: 17%;
-        left: 35px;
-        color: #2b692e;
-        font-weight: 600;
-    }
+.ttl-landing-meals-text-carnes-c {
+  font-size: 30px;
+  position: absolute;
+  color: #2b692e;
+  top: 14%;
+  left: 36px;
+}
 
-    .ttl-landing-meals-text-carnes-s{
-        font-size: 30px;
-        position: absolute;
-        color: #2b692e;
-        top: 9%;
-        left: 36px;
-    }
+.ttl-landing-meals-text-tipocarne-s-h {
+  font-size: 30px;
+  position: absolute;
+  bottom: 22%;
+  left: 35px;
+  color: #2b692e;
+  font-weight: 600;
+}
 
-    .ttl-landing-meals-text-carnes-c {
-        font-size: 30px;
-        position: absolute;
-        color: #2b692e;
-        top: 14%;
-        left: 36px;
-    }
+.ttl-landing-meals-text-tipocarne-s-he {
+  font-size: 30px;
+  position: absolute;
+  bottom: 25%;
+  left: 35px;
+  color: #2b692e;
+  font-weight: 600;
+}
 
-    .ttl-landing-meals-text-tipocarne-s-h{
-        font-size: 30px;
-        position: absolute;
-        bottom: 22%;
-        left: 35px;
-        color: #2b692e;
-        font-weight: 600;
-    }
+.ttl-landing-meals-text-tipocarne-s-h-pescado {
+  font-size: 40px;
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  color: #2b692e;
+}
 
-    .ttl-landing-meals-text-tipocarne-s-he {
-        font-size: 30px;
-        position: absolute;
-        bottom: 25%;
-        left: 35px;
-        color: #2b692e;
-        font-weight: 600;
-    }
+.ttl-landing-meals-text-tipocarne-s {
+  font-size: 40px;
+  position: absolute;
+  top: 17%;
+  left: 36px;
+  color: #2b692e;
+  font-weight: 600;
+}
 
-    .ttl-landing-meals-text-tipocarne-s-h-pescado{
-        font-size: 40px;
-        position: absolute;
-        top: 35px;
-        left: 35px;
-        color: #2b692e;
-    }
+.ttl-landing-meals-text-tipocarne-ce {
+  font-size: 40px;
+  position: absolute;
+  top: 13%;
+  left: 36px;
+  color: #2b692e;
+  font-weight: 600;
+}
 
-    .ttl-landing-meals-text-tipocarne-s{
-        font-size: 40px;
-        position: absolute;
-        top: 17%;
-        left: 36px;
-        color: #2b692e;
-        font-weight: 600;
-    }
+.box-shadow-img {
+  border-radius: 32px;
+  box-shadow: 8px 8px 0px #7fad38bd;
+  background: linear-gradient(#7fad38, #7fad38);
+}
 
-    .ttl-landing-meals-text-tipocarne-ce{
-        font-size: 40px;
-        position: absolute;
-        top: 13%;
-        left: 36px;
-        color: #2b692e;
-        font-weight: 600;
-    }
+.position-relative {
+  position: relative;
+}
 
-    .box-shadow-img{
-        border-radius: 32px;
-        box-shadow: 8px 8px 0px #7fad38bd;
-        background: linear-gradient(#7fad38, #7fad38);
-    }
+.ttl-landing-meals-rectangle-s-p {
+  width: 60px;
+  height: 75px;
+  background-color: #e1e878;
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+}
 
-    .position-relative{
-        position: relative;
-    }
+.ttl-landing-meals-rectangle-s-w {
+  width: 60px;
+  height: 75px;
+  background-color: #e1e878;
+  position: absolute;
+  top: 10%;
+  left: 0;
+}
 
-    .ttl-landing-meals-rectangle-s-p{
-        width: 60px;
-        height: 75px;
-        background-color: #e1e878;
-        position: absolute;
-        bottom: 20%;
-        left: 0;
-    }
+.ttl-landing-meals-text-tipocarne-w {
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: absolute;
+  top: 11%;
+  left: 36px;
+  color: #2b692e;
+  font-weight: 600;
+}
 
-    .ttl-landing-meals-rectangle-s-w {
-        width: 60px;
-        height: 75px;
-        background-color: #e1e878;
-        position: absolute;
-        top: 10%;
-        left: 0;
-    }
+.ttl-landing-meals-mb-40 {
+  margin-bottom: 40px;
+}
 
-    .ttl-landing-meals-text-tipocarne-w {
-        font-size: 40px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        position: absolute;
-        top: 11%;
-        left: 36px;
-        color: #2b692e;
-        font-weight: 600;
-    }
-
-    .ttl-landing-meals-mb-40{
-        margin-bottom: 40px;
-    }
-
-    .ttl-landing-meals-pb-30{
-      padding-bottom: 30px;
-    }
+.ttl-landing-meals-pb-30 {
+  padding-bottom: 30px;
+}
 
 /*** FIN SECCION JHONATAN ***/
 
+/****************  INICIO BLOQUE ROSEMALL  ****************/
 
+.line-height-videos {
+  line-height: 20px;
+}
+.padding-videos-line {
+  padding: 14px 0;
+}
+.padding-videos-two-line {
+  padding: 10px 0;
+}
 
-/****************  INICIO BLOQUE ROSEMALL  ****************/ 
+.ttl-receta-semana-video-totttus {
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 
-  .line-height-videos{
-    line-height: 20px;
-  }
-  .padding-videos-line{
-    padding: 14px 0;
-  }
-  .padding-videos-two-line{
-    padding: 10px 0;
-  }
+.ttl-receta-semana-video {
+  border-radius: 20px;
+  box-shadow: 5px 5px 0px #cedf00;
+  background: linear-gradient(#7fad38, #7fad38);
+  position: relative;
+}
 
-  .ttl-receta-semana-video-totttus {
-    font-size: 18px;
-    color: #ffffff;
-    text-align: center;
-    font-weight: 700;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
+.ttl-receta-semana-video-semana {
+  position: relative;
+}
 
-  .ttl-receta-semana-video {
-    border-radius: 20px;
-    box-shadow: 5px 5px 0px #cedf00;
-    background: linear-gradient(#7fad38, #7fad38);
-    position: relative;
-  }
+.ttl-receta-semana-video-logo {
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
 
-  .ttl-receta-semana-video-semana {
-    position: relative;
-  }
+.ttl-receta-semana-video--aviso {
+  position: absolute;
+  z-index: 10;
+  bottom: -5%;
+  padding: 11px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
 
-  .ttl-receta-semana-video-logo {
-    position: absolute;
-    z-index: 9;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
+  font-family: "Intro-Black-Alt";
+  font-size: 25px;
+  color: #7fad38;
+}
 
-  .ttl-receta-semana-video--aviso {
-    position: absolute;
-    z-index: 10;
-    bottom: -5%;
-    padding: 11px;
-    background-color: #ffffff;
-    border-radius: 15px;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
+.ttl-receta-semana-video-descripcion {
+  padding: 28px;
 
-    font-family: "Intro-Black-Alt";
-    font-size: 25px;
-    color: #7fad38;
-  }
+  text-align: center;
+}
 
-  .ttl-receta-semana-video-descripcion {
-    padding: 28px;
+.border-radius-20 {
+  border-radius: 20px;
+}
 
-    text-align: center;
-  }
+.padding-20-0 {
+  padding: 20px 0;
+}
 
-  .border-radius-20 {
-    border-radius: 20px;
-  }
+.titulo-descripcion {
+  padding: 20px;
+  font-weight: 600;
+}
+.img-width-100 {
+  width: 100%;
+}
 
-  .padding-20-0 {
-    padding: 20px 0;
-  }
-
-
-  .titulo-descripcion{
-      padding: 20px;
-    font-weight: 600;
-  }
-  .img-width-100{
-      width: 100%;
-  }
-
-  .ttl-receta-semana-video:before{
-    position: absolute;
-    bottom: 0%;
-    width: 100%;
-    background-color: #5aa219d6;
-    height: 55px;
-    min-height: 55px;
-    content: '';
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-  }
+.ttl-receta-semana-video:before {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  background-color: #5aa219d6;
+  height: 55px;
+  min-height: 55px;
+  content: "";
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
 /****************  FIN BLOQUE ROSEMALL  ****************/
 
-.ttl-landing-content-hover:hover, .ttl-landing-meals-border-rectangle-h img:hover, .ttl-landing-meals-border-rectangle img:hover{
+.ttl-landing-content-hover:hover,
+.ttl-landing-meals-border-rectangle-h img:hover,
+.ttl-landing-meals-border-rectangle img:hover {
   box-shadow: 5px 5px 0px #2b692e;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-.ttl-receta-semana-video:hover{
+.ttl-receta-semana-video:hover {
   box-shadow: 5px 5px 0px #2b692e;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }

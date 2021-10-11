@@ -1,7 +1,7 @@
 /*COD SCROLL SUAVE*/ 
 
 window.onload = () => {
-    let links = document.querySelectorAll('.link')
+    let links = document.getElementsByClassName('.glide__slide')
     
     let res = links[0]
     res.addEventListener('click', () => {
@@ -117,3 +117,8 @@ MicroModal.init({
         stopVideo(modal);
     }
 });
+
+/*
+Codigo Glide js
+*/ 
+
