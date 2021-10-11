@@ -10,3 +10,13 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'IntroBook';
+    src: local('Intro Book Alt'), local('Intro-Book-Alt'),
+        url('../fonts/Intro-Book-Alt.woff2') format('woff2'),
+        url('../fonts/Intro-Book-Alt.woff') format('woff'),
+        url('../fonts/Intro-Book-Alt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
