@@ -30,10 +30,9 @@ window.onload = () => {
     especiales.addEventListener('click', () => {
       scrollSuave('#especiales', 1800, 78)
     })
-  }
-  
-  
-  const scrollSuave = (objetivo, duracion, compensacion) => {
+}
+   
+const scrollSuave = (objetivo, duracion, compensacion) => {
     let elemObj = document.querySelector(objetivo)
     let elemPos = elemObj.getBoundingClientRect().top - compensacion
     let posInicial = window.pageYOffset
@@ -47,14 +46,14 @@ window.onload = () => {
       if (tiempoPasado < duracion) requestAnimationFrame(animacion)
     }
     requestAnimationFrame(animacion)
-  }
+}
   
-  const easeInOutQuad = (t, b, c, d) => {
+const easeInOutQuad = (t, b, c, d) => {
     t /= d / 2
     if (t < 1) return c / 2 * t * t + b
     t--
     return - c / 2 * (t * (t - 2) - 1) + b
-  }
+}
 
 var playVideo = function (modal) {
     var video = modal.querySelector('iframe, video');
@@ -67,6 +66,7 @@ var playVideo = function (modal) {
     video.src = video.src + (video.src.indexOf('?') < 0 ? '?' : '&') + 'autoplay=1';
     //                            return;
 }
+
 var stopVideo = function (modal) {
     var video = modal.querySelector('iframe, video');
     //                video.pause();
@@ -100,7 +100,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
-
 MicroModal.init({
     onShow: modal => console.info(`${modal.id} is shown`), // [1]
     onClose: modal => console.info(`${modal.id} is hidden`), // [2]
@@ -121,3 +120,44 @@ MicroModal.init({
 Codigo Glide js
 */ 
 
+let gallery = document.getElementsByClassName('glide');
+if (gallery.length !== 0) {
+    let check_resize = (glide) => {
+                if (glide.slides_count <= glide.settings.perView) {
+                    glide.update({ startAt: 0 }).disable();
+                } else {
+                    glide.enable();
+                }
+    };
+    [...gallery].forEach(el => {
+                let el_glide = new Glide(el, {
+                    gap: 10,
+                    perView: 6,
+                    bound: true,
+                    breakpoints: {
+                        370: {
+                            perView: 2,
+                        },
+                        530: {
+                            perView: 2.5,
+                        },
+                        670: {
+                            perView: 3.5,
+                        },
+                        767: {
+                            perView: 4.5,
+                        },
+                        1080: {
+                            perView: 3,
+                            startAt: 1,
+                        },
+                    }
+                });
+                el_glide.slides_count = el.querySelectorAll('.glide__slide').length;
+                el_glide.on('resize', () => {
+                    check_resize(el_glide);
+                });
+                el_glide.mount();
+                check_resize(el_glide);
+    });
+}
