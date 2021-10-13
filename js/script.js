@@ -118,7 +118,7 @@ MicroModal.init({
 
 /*
 Codigo Glide js
-*/ 
+*/
 
 let gallery = document.getElementsByClassName('glide');
 if (gallery.length !== 0) {
@@ -161,3 +161,477 @@ if (gallery.length !== 0) {
                 check_resize(el_glide);
     });
 }
+
+/*** INICIO SECCION ROSSMELL ***/
+window.addEventListener('load',function(){
+    var glider = new Glider(document.getElementById('glider-clasicos-casa'), {
+        slidesToScroll: 3,
+        slidesToShow: 3.5,
+        draggable: true,
+        dots: '#frac-dots',
+        responsive: [
+            {
+              // screens greater than >= 775px
+              breakpoint: 320,
+              settings: {
+                slidesToShow: 1.2,
+                slidesToScroll: 2,
+                itemWidth: 200,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 1.5,
+                slidesToScroll: 2,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2.5,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 1024px
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            }
+        ]
+    });
+})
+window.addEventListener('load',function(){
+    var glider = new Glider(document.getElementById('glider-tips-cocina'), {
+        slidesToScroll: 3,
+        slidesToShow: 3.5,
+        draggable: true,
+        dots: '#frac-dots',
+        responsive: [
+            {
+              // screens greater than >= 775px
+              breakpoint: 320,
+              settings: {
+                slidesToShow: 1.2,
+                slidesToScroll: 2,
+                itemWidth: 200,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 1.5,
+                slidesToScroll: 2,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2.5,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 1024px
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            }
+        ]
+    });
+})
+window.addEventListener('load',function(){
+    var glider = new Glider(document.getElementById('glider-refri-mesa'), {
+        slidesToScroll: 3,
+        slidesToShow: 3.5,
+        draggable: true,
+        dots: '#frac-dots',
+        responsive: [
+            {
+              // screens greater than >= 775px
+              breakpoint: 320,
+              settings: {
+                slidesToShow: 1.2,
+                slidesToScroll: 2,
+                itemWidth: 200,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 1.5,
+                slidesToScroll: 2,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2.5,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 1024px
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            }
+        ]
+    });
+})
+window.addEventListener('load',function(){
+    var glider = new Glider(document.getElementById('glider-receta'), {
+        slidesToScroll: 3,
+        slidesToShow: 3.5,
+        draggable: true,
+        dots: '#frac-dots',
+        responsive: [
+            {
+              // screens greater than >= 775px
+              breakpoint: 320,
+              settings: {
+                slidesToShow: 1.2,
+                slidesToScroll: 2,
+                itemWidth: 200,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 1.5,
+                slidesToScroll: 2,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2.5,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 1024px
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            }
+        ]
+    });
+})
+/*** FIN SECCION ROSSMELL ***/
+
+/*** INICIO SECCION JHONATAN ***/
+window.addEventListener('load',function(){
+    var glider = new Glider(document.getElementById('glider-carnes-especiales'), {
+        slidesToScroll: 3,
+        slidesToShow: 3.5,
+        draggable: true,
+        dots: '#frac-dots',
+        responsive: [
+            {
+              // screens greater than >= 775px
+              breakpoint: 320,
+              settings: {
+                slidesToShow: 1.5,
+                slidesToScroll: 2,
+                itemWidth: 200,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 420,
+              settings: {
+                slidesToShow: 2.2,
+                slidesToScroll: 2,
+                itemWidth: 200,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 2,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2.5,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 1024px
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            }
+        ]
+    });
+})
+window.addEventListener('load',function(){
+    var glider = new Glider(document.getElementById('glider-carnes-pavo'), {
+        slidesToScroll: 3,
+        slidesToShow: 3.5,
+        draggable: true,
+        dots: '#frac-dots',
+        responsive: [
+            {
+              // screens greater than >= 775px
+              breakpoint: 320,
+              settings: {
+                slidesToShow: 1.5,
+                slidesToScroll: 2,
+                itemWidth: 200,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 420,
+              settings: {
+                slidesToShow: 2.2,
+                slidesToScroll: 2,
+                itemWidth: 200,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 2,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2.5,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 1024px
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            }
+        ]
+    });
+})
+window.addEventListener('load',function(){
+    var glider = new Glider(document.getElementById('glider-carnes-cerdo'), {
+        slidesToScroll: 3,
+        slidesToShow: 3.5,
+        draggable: true,
+        dots: '#frac-dots',
+        responsive: [
+            {
+              // screens greater than >= 775px
+              breakpoint: 320,
+              settings: {
+                slidesToShow: 1.5,
+                slidesToScroll: 2,
+                itemWidth: 200,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 420,
+              settings: {
+                slidesToShow: 2.2,
+                slidesToScroll: 2,
+                itemWidth: 200,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 2,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2.5,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 1024px
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            }
+        ]
+    });
+})
+window.addEventListener('load',function(){
+    var glider = new Glider(document.getElementById('glider-carnes-res'), {
+        slidesToScroll: 3,
+        slidesToShow: 3.5,
+        draggable: true,
+        dots: '#frac-dots',
+        responsive: [
+            {
+              // screens greater than >= 775px
+              breakpoint: 320,
+              settings: {
+                slidesToShow: 1.5,
+                slidesToScroll: 2,
+                itemWidth: 200,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 420,
+              settings: {
+                slidesToShow: 2.2,
+                slidesToScroll: 2,
+                itemWidth: 200,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 2,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2.5,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 1024px
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            }
+        ]
+    });
+})
+window.addEventListener('load',function(){
+    var glider = new Glider(document.getElementById('glider-carnes-pollo'), {
+        slidesToScroll: 3,
+        slidesToShow: 3.5,
+        draggable: true,
+        dots: '#frac-dots',
+        responsive: [
+            {
+              // screens greater than >= 775px
+              breakpoint: 320,
+              settings: {
+                slidesToShow: 1.5,
+                slidesToScroll: 2,
+                itemWidth: 200,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 420,
+              settings: {
+                slidesToShow: 2.2,
+                slidesToScroll: 2,
+                itemWidth: 200,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 2,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 775px
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2.5,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            },{
+              // screens greater than >= 1024px
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                itemWidth: 150,
+                duration: 0.25
+              }
+            }
+        ]
+    });
+})
+/*** FIN SECCION JHONATAN ***/

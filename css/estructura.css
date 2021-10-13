@@ -1,9 +1,6 @@
-/****************  INICIO BLOQUE DAVID  ****************/
-
   .glide__slides {
     padding: 60px !important;
   }
-
   .ttl_font_intro {
     font-family: "IntroBook";
   }
@@ -38,11 +35,9 @@
     display: flex;
     align-items: center;
   }
-
   .ttl_justify_content {
     justify-content: center;
   }
-
   #ttl_landing_meats .ttl_meats {
     background-color: white;
     border-radius: 30px;
@@ -575,10 +570,6 @@
     }
   }
 
-/****************  FIN BLOQUE DAVID  ****************/
-
-/****************  INICIO BLOQUE JORGE  ****************/ 
-
   .font-style-italic{
     font-style: italic;
   }
@@ -783,7 +774,7 @@
     padding: 40px 0;
   }
   .ttl-landing-separador-font-size{
-    font-size: 22px;
+    font-size: 24px;
   }
   .ttl-landing-verde-claro{
     color: #7fad38;
@@ -800,17 +791,17 @@
     border-bottom-left-radius: 3px;
   }
   .ttl-landing-pentagono-horizontal-size{
-    width: 13px;
-    height: 16px;
+    width: 16px;
+    height: 18px;
   }
   .ttl-landing-pentagono-horizontal:before {
     content: '';
     position: absolute;
     top: 0px;
     left: 100%;
-    border-top: 8px solid transparent;
-    border-bottom: 8px solid transparent;
-    border-left: 8px solid #d2de34;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-left: 9px solid #d2de34;
   }
 
   .ttl-landing-cazadoras-mitos{
@@ -934,10 +925,6 @@
     width: 100%;
   }
 
-/****************  FIN BLOQUE JORGE  ****************/
-
-/*** INICIO SECCION JHONATAN ***/
-
   .ttl-landing-meals-wrap {
     width: 1200px;
     margin: 0px auto;
@@ -945,30 +932,13 @@
   }
 
   .ttl-landing-meals-baner-border {
-    /*
-          background-color: #7fad38;
-          border-radius: 20px;
-          position : relative;
-          width: 1140;
-          height: 350px;    
-          */
     border-radius: 32px;
     box-shadow: 8px 8px 0px #7fad38bd;
-    background: linear-gradient(#7fad38, #7fad38);
+    background: linear-gradient(#7fad38, #7fad38bd);
     position: relative;
     margin-bottom: 50px;
   }
 
-  #ttl-landing-meals-imgBaner {
-    /*
-          border-radius: 20px;
-          position: absolute;
-          left: -10;
-          top: -10;
-          width: 1140px;
-          height: 350px;
-          */
-  }
   .ttl-landing-meals-row {
     margin-top: 20;
     margin-left: 0px;
@@ -994,27 +964,7 @@
   .ttl-landing-meals-col-v:last-child {
     margin-right: 0px;
   }
-  #ttl-landing-meals-img-square {
-    /*
-          border-radius: 20px;
-          position: absolute;
-          left: -10;
-          top: -10;
-          width: 370px;
-          height: 370px;  
-          */
-  }
 
-  #ttl-landing-meals-img-rectangle-v {
-    /*
-          border-radius: 20px;
-          position: absolute;
-          left: -10;
-          top: -10;
-          width: 380;
-          height: 600;  
-          */
-  }
   #ttl-landing-meals-img-rectangle-l-h {
     border-radius: 20px;
     position: absolute;
@@ -1024,29 +974,7 @@
     height: 380px;
     overflow: hidden;
   }
-  #ttl-landing-meals-img-rectangle-h {
-    /*
-          border-radius: 20px;
-          position: absolute;
-          left: -10;
-          top: -10;
-          width: 380;
-          height: 280px;  
-          */
-  }
-  .ttl-landing-meals-border-rectangle-h {
-    /*
-          position: relative;
-          float: left;
-          width : 380px;
-          height: 280px;
-          border-radius: 20px;
-          margin :15px;
-          overflow: hidden;
-          background-color: #7fad38;
-          cursor: pointer;
-          */
-  }
+
   .ttl-landing-meals-border-rectangle-h:first-child {
     margin-left: 0;
     margin-right: 0;
@@ -1058,20 +986,9 @@
   }
 
   .ttl-landing-meals-border-square {
-    /*
-          position: relative;
-          float: left;
-          width : 370px;
-          height: 370px;
-          border-radius: 20px;
-          margin :20px;
-          overflow: hidden;
-          background-color: #7fad38;
-          cursor: pointer;
-          */
     border-radius: 32px;
     box-shadow: 8px 8px 0px #7fad38bd;
-    background: linear-gradient(#7fad38, #7fad38);
+    background: linear-gradient(#7fad38, #7fad38bd);
     position: relative;
   }
   .ttl-landing-meals-border-square:last-child {
@@ -1080,19 +997,7 @@
   .ttl-landing-meals-border-square:first-child {
     margin-left: 0px;
   }
-  .ttl-landing-meals-border-rectangle {
-    /*
-          position: relative;
-          float: left;
-          width : 380px;
-          height: 600px;
-          border-radius: 20px;
-          margin :15px;
-          overflow: hidden;
-          background-color: #7fad38;
-          cursor: pointer;
-          */
-  }
+
   .ttl-landing-meals-border-rectangle-l-h {
     position: relative;
     float: left;
@@ -1131,14 +1036,6 @@
     left: 0;
   }
   .ttl-landing-meals-rectangle-s-h {
-    /*
-          width : 60px;
-          height: 80px;
-          background-color: #e1e878;
-          position: absolute;
-          top: 175px;
-          left: -10px;
-          */
     width: 70px;
     height: 100px;
     background-color: #e1e878;
@@ -1153,14 +1050,6 @@
     position: absolute;
     top: 40px;
     left: -10px;
-  }
-
-  .ttl-landing-meals-text-carnede-m {
-    font-size: 33px;
-    position: absolute;
-    bottom: 34%;
-    left: 35px;
-    color: #2b692e;
   }
 
   .ttl-landing-meals-text-carnede-s {
@@ -1283,15 +1172,26 @@
   }
 
   .ttl-landing-meals-pb-30 {
-    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
 
-/*** FIN SECCION JHONATAN ***/
+  #glider-carnes-especiales{
+    padding-bottom: 20px;
+  }
+  .ttl-landing-meals-border-rectangle-h, .ttl-landing-meals-border-rectangle{
+    border-radius: 32px;
+    box-shadow: 8px 8px 0px #7fad38bd;
+    background: linear-gradient(#7fad38, #7fad38bd);
+  }
 
-/****************  INICIO BLOQUE ROSEMALL  ****************/
-
+  .ttl-receta-semana-video{
+    display: inline-flex;
+  }
   .line-height-videos {
-    line-height: 20px;
+    line-height: 55px;
+  }
+  .line-height-videos-largo{
+    line-height: 27px;
   }
   .padding-videos-line {
     padding: 14px 0;
@@ -1384,15 +1284,21 @@
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
   }
-/****************  FIN BLOQUE ROSEMALL  ****************/
 
-.ttl-landing-content-hover:hover,
-.ttl-landing-meals-border-rectangle-h img:hover,
-.ttl-landing-meals-border-rectangle img:hover {
-  box-shadow: 5px 5px 0px #2b692e;
+.inline-grid{
+  display: flex;
+}
+
+.ttl-landing-meals-border-rectangle-h:hover, .ttl-landing-meals-baner-border:hover, .ttl-landing-meals-border-square:hover, .ttl-landing-meals-border-rectangle:hover{
+  box-shadow: 8px 8px 0px #2b692e;
   transition: all 0.3s ease-in-out;
 }
+
 .ttl-receta-semana-video:hover {
   box-shadow: 5px 5px 0px #2b692e;
   transition: all 0.3s ease-in-out;
+}
+.seccion-carnes-nacionales .glider, .seccion-carnes-pollos .glider{
+  margin-left: -15px;
+  margin-right: -15px;
 }

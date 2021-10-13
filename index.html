@@ -18,15 +18,21 @@
         <link rel="stylesheet" type="text/css" href="css/general.css" />
         <link rel="stylesheet" type="text/css" href="css/fuentes.css" />
         <link rel="stylesheet" type="text/css" href="css/estructura.css" />
+        <link rel="stylesheet" type="text/css" href="css/main.css" /> <!--GLIDER GENERAL-->
         <link rel="stylesheet" type="text/css" href="css/media.css"/>
+        <!-- FIN CSS WEB -->
+
+        <!-- INICIO GLIDER -->
         <link rel="stylesheet" type="text/css" href="css/glide.core.min.css" />
         <link rel="stylesheet" type="text/css" href="css/glide.theme.min.css" />
-        <!-- FIN CSS WEB -->
+        <!-- FIN GLIDER -->
+
+        <!-- INICIO GLIDER GENERAL -->
+        <script type="text/javascript" src="js/glider.min.js"></script>
+        <!-- INICIO GLIDER GENERAL -->
     </head>
 
     <body>
-
-        <!-- INICIO SECCION DAVID -->
 
             <section id="ttl_landing_meats" class="ttl_landing_meats container">
                 <div class="row">
@@ -191,11 +197,7 @@
 
             <p class="bloque-divisor"></p>
 
-        <!-- FIN SECCION DAVID -->
-
         <div class="container">
-
-        <!-- INICIO SECCION JORGE -->
 
             <section class="ttl-landing-receta-semana">
 
@@ -316,62 +318,55 @@
                         <span class="ttl-landing-verde-oscuro">para tu receta</span>
                     </p>
 
-            </section>
+            </section>    
 
-        <!-- FIN SECCION JORGE -->     
-
-        <!-- INICIO SECCION JHONATAN -->
-
-            <section id="ttl_landing_meats" class="padding-bottom-30">
+            <section id="ttl_landing_meats" class="seccion-carnes-res padding-bottom-30">
 
                 <div id="res">
                     <div class="ttl-landing-meals-baner-border ttl-landing-content-hover">
-                        <img id="ttl-landing-meals-imgBaner" src="imgs/banner_carnes.png" alt="Carne de res">
-
-                        <div class="ttl-landing-meals-rectangle-m"></div>
-                        <div class="ttl-landing-meals-text-carnede-m font-style-italic ttl_font_intro">Carne de</div>
-                        <div class="ttl-landing-meals-text-tipocarne-m font-style-italic ttl_font_introblack">RES</div>
-
+                        <picture class="width-100 inline-grid">
+                            <source media="(min-width:992px)" srcset="imgs/banner_carnes.png">
+                            <source media="(min-width:768px)" srcset="imgs/banner_carnes_tablet.png">
+                            <source media="(min-width:320px)" srcset="imgs/banner_carnes_mobil.png">
+                            <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/banner_carnes.png">
+                        </picture>
                     </div>
 
                     <div class="seccion-carnes-nacionales ttl-landing-meals-mb-40">
-                        <div class="row">
+                        <div class="row glider" id="glider-carnes-res">
                             <div class="col">
                                 <div class="ttl-landing-meals-border-square ttl-landing-content-hover">
 
-                                    <img id="ttl-landing-meals-img-square" src="imgs/carnes_nacionales.png"
-                                        alt="Carne de res">
-                                    <div class="ttl-landing-meals-rectangle-s"></div>
-                                    <div class="ttl-landing-meals-text-carnes-s ttl_font_intro font-style-italic">Carnes
-                                    </div>
-                                    <div class="ttl-landing-meals-text-tipocarne-s ttl_font_introblack font-style-italic">
-                                        Nacionales</div>
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/carnes_nacionales.png">
+                                        <source media="(min-width:768px)" srcset="imgs/carnes_nacionales_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/carnes_nacionales_mobil.png">
+                                        <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/carnes_nacionales.png">
+                                    </picture>
 
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="ttl-landing-meals-border-square ttl-landing-content-hover">
 
-                                    <img id="ttl-landing-meals-img-square" src="imgs/carnes_importadas.png"
-                                        alt="Carne de res">
-                                    <div class="ttl-landing-meals-rectangle-s"></div>
-                                    <div class="ttl-landing-meals-text-carnes-s ttl_font_intro font-style-italic">Carnes
-                                    </div>
-                                    <div class="ttl-landing-meals-text-tipocarne-s ttl_font_introblack font-style-italic">
-                                        Importadas</div>
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/carnes_importadas.png">
+                                        <source media="(min-width:768px)" srcset="imgs/carnes_importadas_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/carnes_importadas_mobil.png">
+                                        <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/carnes_importadas.png">
+                                    </picture>
 
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="ttl-landing-meals-border-square ttl-landing-content-hover">
 
-                                    <img id="ttl-landing-meals-img-square" src="imgs/carnes_organicas.png"
-                                        alt="Carne de res">
-                                    <div class="ttl-landing-meals-rectangle-s"></div>
-                                    <div class="ttl-landing-meals-text-carnes-s ttl_font_intro font-style-italic">Carnes
-                                    </div>
-                                    <div class="ttl-landing-meals-text-tipocarne-s ttl_font_introblack font-style-italic">
-                                        Organicas</div>
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/carnes_organicas.png">
+                                        <source media="(min-width:768px)" srcset="imgs/carnes_organicas_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/carnes_organicas_mobil.png">
+                                        <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/carnes_organicas.png">
+                                    </picture>
 
                                 </div>
                             </div>
@@ -380,113 +375,116 @@
 
                     <div id="pollo"
                         class="ttl-landing-meals-baner-border ttl-landing-meals-mb-40 ttl-landing-content-hover">
-                        <img id="ttl-landing-meals-imgBaner" src="imgs/banner_pollos.png" alt="Carne de res">
 
-                        <div class="ttl-landing-meals-rectangle-m"></div>
-                        <div class="ttl-landing-meals-text-carnede-m font-style-italic ttl_font_intro">Carne de</div>
-                        <div class="ttl-landing-meals-text-tipocarne-m font-style-italic ttl_font_introblack">POLLO</div>
+                        <picture class="width-100 inline-grid">
+                            <source media="(min-width:992px)" srcset="imgs/banner_pollos.png">
+                            <source media="(min-width:768px)" srcset="imgs/banner_pollos_tablet.png">
+                            <source media="(min-width:320px)" srcset="imgs/banner_pollos_mobil.png">
+                            <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/banner_pollos.png">
+                        </picture>
 
                     </div>
 
-                    <div class="ttl-landing-meals-baner-border2 ttl-landing-meals-mb-40">
-                        <div class="row">
+                    <div class="ttl-landing-meals-baner-border2 seccion-carnes-pollos ttl-landing-meals-mb-40">
+                        <div class="row glider" id="glider-carnes-pollo">
                             <div class="col">
+                                <div>
                                 <div class="ttl-landing-meals-border-rectangle-h position-relative ttl-landing-meals-pb-30">
 
-                                    <img id="ttl-landing-meals-img-rectangle-h" src="imgs/filete_de_pollo.png"
-                                        alt="Carne de res" class="box-shadow-img">
-                                    <div class="ttl-landing-meals-rectangle-s-p"></div>
-                                    <div
-                                        class="ttl-landing-meals-text-tipocarne-s-he ttl_font_introblack font-style-italic">
-                                        Filete de pollo</div>
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/filete_de_pollo.png">
+                                        <source media="(min-width:768px)" srcset="imgs/filete_de_pollo_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/filete_de_pollo_mobil.png">
+                                        <img id="ttl-landing-meals-img-rectangle-h" class="img-fondo width-100" src="imgs/filete_de_pollo.png">
+                                    </picture>
 
                                 </div>
                                 <div class="ttl-landing-meals-border-rectangle-h position-relative">
 
-                                    <img id="ttl-landing-meals-img-rectangle-h" src="imgs/cortes_light_pollo.png"
-                                        alt="Carne de res" class="box-shadow-img">
-                                    <div class="ttl-landing-meals-rectangle-s-p"></div>
-                                    <div
-                                        class="ttl-landing-meals-text-tipocarne-s-he ttl_font_introblack font-style-italic">
-                                        Cortes light de pollo</div>
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/cortes_light_pollo.png">
+                                        <source media="(min-width:768px)" srcset="imgs/cortes_light_pollo_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/cortes_light_pollo_mobil.png">
+                                        <img id="ttl-landing-meals-img-rectangle-h" class="img-fondo width-100" src="imgs/cortes_light_pollo.png">
+                                    </picture>
+
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="ttl-landing-meals-border-rectangle position-relative">
+
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/pollo_orgánico.png">
+                                        <source media="(min-width:768px)" srcset="imgs/pollo_orgánico_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/pollo_orgánico_mobil.png">
+                                        <img id="ttl-landing-meals-img-rectangle-v" class="img-fondo width-100" src="imgs/pollo_orgánico.png">
+                                    </picture>
 
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="ttl-landing-meals-border-rectangle position-relative">
 
-                                    <img id="ttl-landing-meals-img-rectangle-v" src="imgs/pollo_orgánico.png"
-                                        alt="Carne de res" class="box-shadow-img">
-                                    <div class="ttl-landing-meals-rectangle-s-w"></div>
-                                    <div class="ttl-landing-meals-text-tipocarne-w ttl_font_introblack font-style-italic">
-                                        Pollo Orgánico</div>
-
-                                </div>
-                            </div>
-                            <div class="col">
-                                <div class="ttl-landing-meals-border-rectangle position-relative">
-
-                                    <img id="ttl-landing-meals-img-rectangle-v" src="imgs/pollo_entero.png"
-                                        alt="Carne de res" class="box-shadow-img">
-                                    <div class="ttl-landing-meals-rectangle-s-w"></div>
-                                    <div class="ttl-landing-meals-text-tipocarne-w ttl_font_introblack font-style-italic">
-                                        Pollo Entero</div>
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/pollo_entero.png">
+                                        <source media="(min-width:768px)" srcset="imgs/pollo_entero_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/pollo_entero_mobil.png">
+                                        <img id="ttl-landing-meals-img-rectangle-v" class="img-fondo width-100" src="imgs/pollo_entero.png">
+                                    </picture>
 
                                 </div>
                             </div>
                         </div>
                     </div>
 
-
-
                     <div id="cerdo"
-                        class="ttl-landing-meals-baner-border ttl-landing-content-hover ttl-landing-content-hover">
-                        <img id="ttl-landing-meals-imgBaner" src="imgs/banner_cerdos.png" alt="Carne de res">
+                        class="ttl-landing-meals-baner-border seccion-carnes-cerdo ttl-landing-content-hover ttl-landing-content-hover">
 
-                        <div class="ttl-landing-meals-rectangle-m"></div>
-                        <div class="ttl-landing-meals-text-carnede-m font-style-italic ttl_font_intro">Carne de</div>
-                        <div class="ttl-landing-meals-text-tipocarne-m font-style-italic ttl_font_introblack">Cerdo</div>
+                        <picture class="width-100 inline-grid">
+                            <source media="(min-width:992px)" srcset="imgs/banner_cerdos.png">
+                            <source media="(min-width:768px)" srcset="imgs/banner_cerdos_tablet.png">
+                            <source media="(min-width:320px)" srcset="imgs/banner_cerdos_mobil.png">
+                            <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/banner_cerdos.png">
+                        </picture>
 
                     </div>
 
                     <div class="seccion-carnes-nacionales ttl-landing-meals-mb-40">
-                        <div class="row">
+                        <div class="row glider" id="glider-carnes-cerdo">
                             <div class="col">
                                 <div class="ttl-landing-meals-border-square ttl-landing-content-hover">
 
-                                    <img id="ttl-landing-meals-img-square" src="imgs/carne_cerdo_nacional.png"
-                                        alt="Carne de res">
-                                    <div class="ttl-landing-meals-rectangle-s"></div>
-                                    <div class="ttl-landing-meals-text-carnes-s ttl_font_intro font-style-italic">Carne de
-                                        cerdo</div>
-                                    <div class="ttl-landing-meals-text-tipocarne-s ttl_font_introblack font-style-italic">
-                                        Nacional</div>
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/carne_cerdo_nacional.png">
+                                        <source media="(min-width:768px)" srcset="imgs/carne_cerdo_nacional_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/carne_cerdo_nacional_mobil.png">
+                                        <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/carne_cerdo_nacional.png">
+                                    </picture>
 
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="ttl-landing-meals-border-square ttl-landing-content-hover">
 
-                                    <img id="ttl-landing-meals-img-square" src="imgs/carne_cerdo_importada.png"
-                                        alt="Carne de res">
-                                    <div class="ttl-landing-meals-rectangle-s"></div>
-                                    <div class="ttl-landing-meals-text-carnes-s ttl_font_intro font-style-italic">Carne de
-                                        cerdo</div>
-                                    <div class="ttl-landing-meals-text-tipocarne-s ttl_font_introblack font-style-italic">
-                                        Importada</div>
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/carne_cerdo_importada.png">
+                                        <source media="(min-width:768px)" srcset="imgs/carne_cerdo_importada_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/carne_cerdo_importada_mobil.png">
+                                        <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/carne_cerdo_importada.png">
+                                    </picture>
 
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="ttl-landing-meals-border-square ttl-landing-content-hover">
 
-                                    <img id="ttl-landing-meals-img-square" src="imgs/carne_cerdo_premium.png"
-                                        alt="Carne de res">
-                                    <div class="ttl-landing-meals-rectangle-s"></div>
-                                    <div class="ttl-landing-meals-text-carnes-s ttl_font_intro font-style-italic">Carne de
-                                        cerdo</div>
-                                    <div class="ttl-landing-meals-text-tipocarne-s ttl_font_introblack font-style-italic">
-                                        Premium</div>
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/carne_cerdo_premium.png">
+                                        <source media="(min-width:768px)" srcset="imgs/carne_cerdo_premium_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/carne_cerdo_premium_mobil.png">
+                                        <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/carne_cerdo_premium.png">
+                                    </picture>
 
                                 </div>
                             </div>
@@ -494,52 +492,63 @@
                     </div>
 
                     <div id="pavo" class="ttl-landing-meals-baner-border ttl-landing-content-hover">
-                        <img id="ttl-landing-meals-imgBaner" src="imgs/banner_pavos.png" alt="Carne de res">
 
-                        <div class="ttl-landing-meals-rectangle-m"></div>
-                        <div class="ttl-landing-meals-text-carnede-m font-style-italic ttl_font_intro">Carne de</div>
-                        <div class="ttl-landing-meals-text-tipocarne-m font-style-italic ttl_font_introblack">PAVO</div>
+                        <picture class="width-100 inline-grid">
+                            <source media="(min-width:992px)" srcset="imgs/banner_pavos.png">
+                            <source media="(min-width:768px)" srcset="imgs/banner_pavos_tablet.png">
+                            <source media="(min-width:320px)" srcset="imgs/banner_pavos_mobil.png">
+                            <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/banner_pavos.png">
+                        </picture>
 
                     </div>
 
                     <div class="seccion-carnes-nacionales ttl-landing-meals-mb-40">
-                        <div class="row">
+                        <div class="row glider" id="glider-carnes-pavo">
                             <div class="col">
                                 <div class="ttl-landing-meals-border-square ttl-landing-content-hover">
 
-                                    <img id="ttl-landing-meals-img-square" src="imgs/carne_pavo_nacionales.png"
-                                        alt="Carne de res">
-                                    <div class="ttl-landing-meals-rectangle-s"></div>
-                                    <div class="ttl-landing-meals-text-carnes-s ttl_font_intro font-style-italic">Carne de
-                                        pavo</div>
-                                    <div class="ttl-landing-meals-text-tipocarne-s ttl_font_introblack font-style-italic">
-                                        Nacional</div>
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/carne_pavo_nacionales.png">
+                                        <source media="(min-width:768px)" srcset="imgs/carne_pavo_nacionales_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/carne_pavo_nacionales_mobil.png">
+                                        <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/carne_pavo_nacionales.png">
+                                    </picture>
 
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="ttl-landing-meals-border-square ttl-landing-content-hover">
 
-                                    <img id="ttl-landing-meals-img-square" src="imgs/carne_pavo_importada.png"
-                                        alt="Carne de res">
-                                    <div class="ttl-landing-meals-rectangle-s"></div>
+                                    <!--<img id="ttl-landing-meals-img-square" src="imgs/carne_pavo_importada.png" alt="Carne de res">-->
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/carne_pavo_importada.png">
+                                        <source media="(min-width:768px)" srcset="imgs/carne_pavo_importada_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/carne_pavo_importada_mobil.png">
+                                        <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/carne_pavo_importada.png">
+                                    </picture>
+                                    <!--<div class="ttl-landing-meals-rectangle-s"></div>
                                     <div class="ttl-landing-meals-text-carnes-s ttl_font_intro font-style-italic">Carne de
                                         pavo</div>
                                     <div class="ttl-landing-meals-text-tipocarne-s ttl_font_introblack font-style-italic">
-                                        Importada</div>
+                                        Importada</div>-->
 
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="ttl-landing-meals-border-square ttl-landing-content-hover">
 
-                                    <img id="ttl-landing-meals-img-square" src="imgs/carne_pavo_premium.png"
-                                        alt="Carne de res">
-                                    <div class="ttl-landing-meals-rectangle-s"></div>
+                                    <!--<img id="ttl-landing-meals-img-square" src="imgs/carne_pavo_premium.png" alt="Carne de res">-->
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/carne_pavo_premium.png">
+                                        <source media="(min-width:768px)" srcset="imgs/carne_pavo_premium_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/carne_pavo_premium_mobil.png">
+                                        <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/carne_pavo_premium.png">
+                                    </picture>
+                                    <!--<div class="ttl-landing-meals-rectangle-s"></div>
                                     <div class="ttl-landing-meals-text-carnes-s ttl_font_intro font-style-italic">Carne de
                                         pavo</div>
                                     <div class="ttl-landing-meals-text-tipocarne-s ttl_font_introblack font-style-italic">
-                                        Premium</div>
+                                        Premium</div>-->
 
                                 </div>
                             </div>
@@ -547,34 +556,39 @@
                     </div>
 
                     <div id="pescado" class="ttl-landing-meals-baner-border ttl-landing-content-hover">
-                        <img id="ttl-landing-meals-imgBaner" src="imgs/banner_pescados.png" alt="Carne de res">
 
-                        <div class="ttl-landing-meals-rectangle-m"></div>
-                        <div class="ttl-landing-meals-text-carnede-m font-style-italic ttl_font_intro">Carne de</div>
-                        <div class="ttl-landing-meals-text-tipocarne-m font-style-italic ttl_font_introblack">PESCADO</div>
+                        <picture class="width-100 inline-grid">
+                            <source media="(min-width:992px)" srcset="imgs/banner_pescados.png">
+                            <source media="(min-width:768px)" srcset="imgs/banner_pescados_tablet.png">
+                            <source media="(min-width:320px)" srcset="imgs/banner_pescados_mobil.png">
+                            <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/banner_pescados.png">
+                        </picture>
 
                     </div>
 
-                    <div class="seccion-carnes-nacionales ttl-landing-meals-mb-40">
+                    <div class="seccion-carnes-nacionales2 seccion-carnes-pescado ttl-landing-meals-mb-40">
                         <div class="row">
                             <div class="col">
                                 <div class="ttl-landing-meals-border-square ttl-landing-content-hover">
 
-                                    <img id="ttl-landing-meals-img-square" src="imgs/filete_pescado.png" alt="Carne de res">
-                                    <div class="ttl-landing-meals-rectangle-s"></div>
-                                    <div class="ttl-landing-meals-text-carnes-c ttl_font_introblack font-style-italic">
-                                        Filete de pescado</div>
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/filete_pescado.png">
+                                        <source media="(min-width:768px)" srcset="imgs/filete_pescado_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/filete_pescado_mobil.png">
+                                        <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/filete_pescado.png">
+                                    </picture>
 
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="ttl-landing-meals-border-square ttl-landing-content-hover">
 
-                                    <img id="ttl-landing-meals-img-square" src="imgs/mariscos_crustaceos.png"
-                                        alt="Carne de res">
-                                    <div class="ttl-landing-meals-rectangle-s"></div>
-                                    <div class="ttl-landing-meals-text-carnes-c ttl_font_introblack font-style-italic">
-                                        Mariscos y crustáceos</div>
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/mariscos_crustaceos.png">
+                                        <source media="(min-width:768px)" srcset="imgs/mariscos_crustaceos_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/mariscos_crustaceos_mobil.png">
+                                        <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/mariscos_crustaceos.png">
+                                    </picture>
 
                                 </div>
                             </div>
@@ -582,43 +596,51 @@
                     </div>
 
                     <div id="especiales" class="ttl-landing-meals-baner-border ttl-landing-content-hover">
-                        <img id="ttl-landing-meals-imgBaner" src="imgs/banner_carnes_especiales.png" alt="Carne de res">
 
-                        <div class="ttl-landing-meals-rectangle-m"></div>
-                        <div class="ttl-landing-meals-text-carnede-s font-style-italic ttl_font_introblack">CARNES
-                            ESPECIALES</div>
+                        <picture class="width-100 inline-grid">
+                            <source media="(min-width:992px)" srcset="imgs/banner_carnes_especiales.png">
+                            <source media="(min-width:768px)" srcset="imgs/banner_carnes_especiales_tablet.png">
+                            <source media="(min-width:320px)" srcset="imgs/banner_carnes_especiales_mobil.png">
+                            <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/banner_carnes_especiales.png">
+                        </picture>
 
                     </div>
 
-                    <div class="seccion-carnes-nacionales ttl-landing-meals-mb-40">
-                        <div class="row">
+                    <div class="seccion-carnes-nacionales seccion-carnes-especiales ttl-landing-meals-mb-40">
+                        <div class="row glider" id="glider-carnes-especiales">
                             <div class="col">
                                 <div class="ttl-landing-meals-border-square ttl-landing-content-hover">
 
-                                    <img id="ttl-landing-meals-img-square" src="imgs/gallina.png" alt="Carne de res">
-                                    <div class="ttl-landing-meals-rectangle-s"></div>
-                                    <div class="ttl-landing-meals-text-tipocarne-ce ttl_font_introblack font-style-italic">
-                                        Gallita</div>
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/gallina.png">
+                                        <source media="(min-width:768px)" srcset="imgs/gallina_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/gallina_mobil.png">
+                                        <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/gallina.png">
+                                    </picture>
 
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="ttl-landing-meals-border-square ttl-landing-content-hover">
 
-                                    <img id="ttl-landing-meals-img-square" src="imgs/pato.png" alt="Carne de res">
-                                    <div class="ttl-landing-meals-rectangle-s"></div>
-                                    <div class="ttl-landing-meals-text-tipocarne-ce ttl_font_introblack font-style-italic">
-                                        Pato</div>
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/pato.png">
+                                        <source media="(min-width:768px)" srcset="imgs/pato_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/pato_mobil.png">
+                                        <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/pato.png">
+                                    </picture>
 
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="ttl-landing-meals-border-square ttl-landing-content-hover">
 
-                                    <img id="ttl-landing-meals-img-square" src="imgs/cuy.png" alt="Carne de res">
-                                    <div class="ttl-landing-meals-rectangle-s"></div>
-                                    <div class="ttl-landing-meals-text-tipocarne-ce ttl_font_introblack font-style-italic">
-                                        Cuy</div>
+                                    <picture class="width-100 inline-grid">
+                                        <source media="(min-width:992px)" srcset="imgs/cuy.png">
+                                        <source media="(min-width:768px)" srcset="imgs/cuy_tablet.png">
+                                        <source media="(min-width:320px)" srcset="imgs/cuy_mobil.png">
+                                        <img id="ttl-landing-meals-imgBaner" class="img-fondo width-100" src="imgs/cuy.png">
+                                    </picture>
 
                                 </div>
                             </div>
@@ -627,17 +649,11 @@
                 </div>
             </section>
 
-        <!-- FIN SECCION JHONATAN -->
-
         </div>
-
-        <!-- INICIO SECCION JORGE -->
 
             <section class="ttl-landing-cazadoras-mitos">
 
                   <div class="ttl-landing-cazadoras-mitos-fondo-contenedor bloque-position-relative"> 
-
-                    <!--<img class="container-cazadoras-mitos-fondo" src="imgs/cazadores_mitos_fondo.png">-->
 
                     <picture>
                         <source media="(min-width:992px)" srcset="imgs/cazadores_mitos_fondo.png">
@@ -706,7 +722,7 @@
 
             <div class="container">
 
-                    <section class="ttl-landing-separador font-style-italic">
+                <section class="ttl-landing-separador font-style-italic">
 
                         <p class="ttl_font_introblack ttl-landing-separador-font-size">
                             <span class="ttl-landing-verde-claro">
@@ -716,200 +732,189 @@
                             <span class="ttl-landing-verde-oscuro">aquí</span>
                         </p>
 
+                </section> 
+
+                <div class="ttl_landing_videos_container">
+
+                    <section class="padding-bottom-50">
+
+                        <div class="ttl_title ttl_green center padding-20-0">
+                            <h2 class="ttl_text_large ttl_font_introblack font-style-italic">Clásicos en casa</h2>
+                            <p class="titulo-descripcion">Lo que imaginaste comer afuera lo puedes preparar igual de rico en
+                                    casa con nuestras recetas</p>
+                        </div>
+                             
+                        <div class="row glider" id="glider-clasicos-casa">
+                            <div class="col-md-4 col-lg-4 padding-20">
+                                <div class="ttl-receta-semana-video">
+                                    <img src="imgs/rocoto_relleno.png" class="border-radius-20 img-width-100">
+                                     <a data-micromodal-trigger="modal-6" class="icon-youtube-hover"> 
+                                        <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
+                                    </a>
+                                    <p class="white ttl-receta-semana-video-totttus ttl_font_introblack font-style-italic line-height-videos">Rocoto relleno</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 padding-20">
+                                <div class="ttl-receta-semana-video">
+                                    <img src="imgs/carapulcra_chancho.png" class="border-radius-20 img-width-100">
+                                    <a data-micromodal-trigger="modal-7" class="icon-youtube-hover"> 
+                                        <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
+                                    </a>
+                                    <p class="ttl-receta-semana-video-totttus ttl_font_introblack font-style-italic line-height-videos">Carapulcra de chancho</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 padding-20">
+                                <div class="ttl-receta-semana-video">
+                                    <img src="imgs/merengado_fresa.png" class="border-radius-20 img-width-100">
+                                    <a data-micromodal-trigger="modal-8" class="icon-youtube-hover"> 
+                                        <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
+                                    </a>
+                                    <p class="ttl-receta-semana-video-totttus ttl_font_introblack font-style-italic line-height-videos">Merengado de fresa</p>
+                                </div>
+                            </div>
+                        </div>
+
                     </section>
 
-                    <!-- FIN SECCION JORGE -->   
+                    <section id="ttl_landing_video2" class="padding-bottom-50">
 
-                    <!-- INICIO SECCION ROSEMALL -->
+                        <div class="ttl_title ttl_green center padding-20-0">
+                            <h2 class="ttl_text_large ttl_font_introblack font-style-italic">Tips de cocina</h2>
+                            <p class="titulo-descripcion">Ignacio no se guarda ningún Tip de Cocina ¡Descúbrelo aquí!</p>
+                        </div>
 
-                    <div class="">
+                        <div class="row glider" id="glider-tips-cocina">
 
-                        <section id="ttl_landing_video2" class="padding-bottom-50">
-
-                            <div class="ttl_title ttl_green center padding-20-0">
-                                <h2 class="ttl_text_large ttl_font_introblack font-style-italic">Clásicos en casa</h2>
-                                <p class="titulo-descripcion">Lo que imaginaste comer afuera lo puedes preparar igual de rico en
-                                    casa con nuestras recetas</p>
-                            </div>
-
-                            <div class="row">
-
-                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 padding-20">
-                                    <div class="ttl-receta-semana-video">
-                                        <img src="imgs/rocoto_relleno.png" class="border-radius-20 img-width-100">
-                                        <a data-micromodal-trigger="modal-6" class="icon-youtube-hover"> 
-                                            <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
-                                        </a>
-                                        <p class="white ttl-receta-semana-video-totttus ttl_font_introblack font-style-italic padding-videos-line">Rocoto relleno</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 padding-20">
-                                    <div class="ttl-receta-semana-video">
-                                        <img src="imgs/carapulcra_chancho.png" class="border-radius-20 img-width-100">
-                                        <a data-micromodal-trigger="modal-7" class="icon-youtube-hover"> 
-                                            <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
-                                        </a>
-                                        <p class="ttl-receta-semana-video-totttus ttl_font_introblack font-style-italic padding-videos-line">Carapulcra de chancho</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 padding-20">
-                                    <div class="ttl-receta-semana-video">
-                                        <img src="imgs/merengado_fresa.png" class="border-radius-20 img-width-100">
-                                        <a data-micromodal-trigger="modal-8" class="icon-youtube-hover"> 
-                                            <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
-                                        </a>
-                                        <p class="ttl-receta-semana-video-totttus ttl_font_introblack font-style-italic padding-videos-line">Merengado de fresa</p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </section>
-
-                        <section id="ttl_landing_video2" class="padding-bottom-50">
-
-                            <div class="ttl_title ttl_green center padding-20-0">
-                                <h2 class="ttl_text_large ttl_font_introblack font-style-italic">Tips de cocina</h2>
-                                <p class="titulo-descripcion">Ignacio no se guarda ningún Tip de Cocina ¡Descúbrelo aquí!</p>
-                            </div>
-
-                            <div class="row">
-
-                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 padding-20">
-                                    <div class="ttl-receta-semana-video">
-                                        <img src="imgs/churrasco_plancha.png" class="border-radius-20 img-width-100">
-                                        <a data-micromodal-trigger="modal-9" class="icon-youtube-hover"> 
-                                            <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
-                                        </a>
-                                        <p class="ttl-receta-semana-video-totttus line-height-videos font-style-italic ttl_font_intro padding-videos-two-line">Churrasco a la plancha <br>
-                                            <span class="font-weight-600 ttl_font_introblack">con papas fritas perfectas</span></p>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 padding-20">
-                                    <div class="ttl-receta-semana-video">
-                                        <img src="imgs/pellejo_crocante.png" class="border-radius-20 img-width-100">
-                                        <a data-micromodal-trigger="modal-10" class="icon-youtube-hover"> 
-                                            <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
-                                        </a>
-                                        <p class="ttl-receta-semana-video-totttus line-height-videos font-style-italic ttl_font_intro padding-videos-two-line">¿Cómo conseguir el pellejo crocante <br>
-                                            <span class="font-weight-600 ttl_font_introblack">de la plancha de chancho?</span></p>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 padding-20">
-                                    <div class="ttl-receta-semana-video">
-                                        <img src="imgs/arroz_chaufa.png" class="border-radius-20 img-width-100">
-                                        <a data-micromodal-trigger="modal-11" class="icon-youtube-hover"> 
-                                            <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
-                                        </a>
-                                        <p class="ttl-receta-semana-video-totttus font-style-italic ttl_font_intro padding-videos-line">Arroz chaufa
-                                            <span class="font-weight-600 ttl_font_introblack">estilo oriental</span></p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </section>
-
-                        <section id="ttl_landing_video2" class="padding-bottom-50">
-
-                            <div class="ttl_title ttl_green center padding-20-0">
-                                <h2 class="ttl_text_large ttl_font_introblack font-style-italic">De la refri a tu mesa</h2>
-                                <p class="titulo-descripcion">¿Sabías que tu refri puede ser tu mejor aliado en la cocina?</p>
-                            </div>
-
-                            <div class="row">
-
-                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 padding-20">
-                                    <div class="ttl-receta-semana-video">
-                                        <img src="imgs/tallarin_saltado.png" class="border-radius-20 img-width-100">
-                                        <a data-micromodal-trigger="modal-12" class="icon-youtube-hover"> 
-                                            <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
-                                        </a>
-                                        <p class="ttl-receta-semana-video-totttus font-style-italic ttl_font_introblack padding-videos-line">Tallarin saltado</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 padding-20">
-                                    <div class="ttl-receta-semana-video">
-                                        <img src="imgs/panqueques_platano.png" class="border-radius-20 img-width-100">
-                                        <a data-micromodal-trigger="modal-13" class="icon-youtube-hover"> 
-                                            <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
-                                        </a>
-                                        <p class="ttl-receta-semana-video-totttus font-style-italic ttl_font_introblack padding-videos-line">Panqueques de plátano</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 padding-20">
-                                    <div class="ttl-receta-semana-video">
-                                        <img src="imgs/ajies_rellenos.png" class="border-radius-20 img-width-100">
-                                        <a data-micromodal-trigger="modal-14" class="icon-youtube-hover"> 
-                                            <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
-                                        </a>
-                                        <p class="ttl-receta-semana-video-totttus font-style-italic ttl_font_introblack padding-videos-line">Ajies rellenos</p>
-                                    </div>
-                                </div>
-
-                            </div>
-
-                        </section>
-
-                        <section id="ttl_landing_video2" class="padding-bottom-50">
-
-                            <div class="ttl_title ttl_green center padding-20-0">
-                                <h2 class="ttl_text_large ttl_font_introblack font-style-italic">Receta 3, 2, 1</h2>
-                                <p class="titulo-descripcion">Preparar algo rico en tu cocina no debe tomarte mucho tiempo</p>
-                            </div>
-
-                            <div class="row">
-
-                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 padding-20">
-                                    <div class="ttl-receta-semana-video">
-                                        <img src="imgs/nuggets_pollo.png" class="border-radius-20 img-width-100">
-                                        <a data-micromodal-trigger="modal-15" class="icon-youtube-hover"> 
-                                            <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
-                                        </a>
-                                        <p class="ttl-receta-semana-video-totttus font-style-italic ttl_font_introblack padding-videos-line">Nuggets de pollo caceros</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 padding-20">
-                                    <div class="ttl-receta-semana-video">
-                                        <img src="imgs/empanaditas_carne.png" class="border-radius-20 img-width-100">
-                                        <a data-micromodal-trigger="modal-16" class="icon-youtube-hover"> 
-                                            <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
-                                        </a>
-                                        <p class="ttl-receta-semana-video-totttus font-style-italic ttl_font_introblack padding-videos-line">Empanaditas de carne</p>
-                                    </div>
-                                </div>
-
-                                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 padding-20">
-                                    <a data-micromodal-trigger="modal-4">
-
-                                        <div class="ttl-receta-semana-video">
-                                            <img src="imgs/salsa_casera.png" class="border-radius-20 img-width-100">
-                                            <a data-micromodal-trigger="modal-17" class="icon-youtube-hover"> 
-                                                <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
-                                            </a>
-                                            <p class="ttl-receta-semana-video-totttus font-style-italic ttl_font_introblack padding-videos-line">Salsa BBQ cacera</p>
-                                        </div>
+                            <div class="col-md-4 col-lg-4 padding-20">
+                                <div class="ttl-receta-semana-video">
+                                    <img src="imgs/churrasco_plancha.png" class="border-radius-20 img-width-100">
+                                    <a data-micromodal-trigger="modal-9" class="icon-youtube-hover"> 
+                                        <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
                                     </a>
+                                    <p class="ttl-receta-semana-video-totttus font-style-italic ttl_font_intro line-height-videos-largo">Churrasco a la plancha <br>
+                                    <span class="font-weight-600 ttl_font_introblack">con papas fritas perfectas</span></p>
                                 </div>
-
                             </div>
 
-                        </section>
+                            <div class="col-md-4 col-lg-4 padding-20">
+                                <div class="ttl-receta-semana-video">
+                                    <img src="imgs/pellejo_crocante.png" class="border-radius-20 img-width-100">
+                                    <a data-micromodal-trigger="modal-10" class="icon-youtube-hover"> 
+                                        <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
+                                    </a>
+                                    <p class="ttl-receta-semana-video-totttus font-style-italic ttl_font_intro line-height-videos-largo">¿Cómo conseguir el pellejo crocante <br>
+                                    <span class="font-weight-600 ttl_font_introblack">de la plancha de chancho?</span></p>
+                                </div>
+                            </div>
 
-                    </div>
+                            <div class="col-md-4 col-lg-4 padding-20">
+                                <div class="ttl-receta-semana-video">
+                                    <img src="imgs/arroz_chaufa.png" class="border-radius-20 img-width-100">
+                                    <a data-micromodal-trigger="modal-11" class="icon-youtube-hover"> 
+                                        <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
+                                    </a>
+                                    <p class="ttl-receta-semana-video-totttus font-style-italic ttl_font_intro line-height-videos">Arroz chaufa
+                                    <span class="font-weight-600 ttl_font_introblack">estilo oriental</span></p>
+                                </div>
+                            </div>
 
-                    <!-- FIN SECCION ROSEMALL -->
+                        </div>
 
-            </div>
+                    </section>
 
-        <!-- FIN SECCION JORGE -->      
+                    <section id="ttl_landing_video2" class="padding-bottom-50">
+
+                        <div class="ttl_title ttl_green center padding-20-0">
+                            <h2 class="ttl_text_large ttl_font_introblack font-style-italic">De la refri a tu mesa</h2>
+                            <p class="titulo-descripcion">¿Sabías que tu refri puede ser tu mejor aliado en la cocina?</p>
+                        </div>
+
+                        <div class="row glider" id="glider-refri-mesa">
+
+                            <div class="col-md-4 col-lg-4 padding-20">
+                                <div class="ttl-receta-semana-video">
+                                    <img src="imgs/tallarin_saltado.png" class="border-radius-20 img-width-100">
+                                    <a data-micromodal-trigger="modal-12" class="icon-youtube-hover"> 
+                                        <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
+                                    </a>
+                                    <p class="ttl-receta-semana-video-totttus font-style-italic ttl_font_introblack line-height-videos">Tallarin saltado</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 padding-20">
+                                <div class="ttl-receta-semana-video">
+                                    <img src="imgs/panqueques_platano.png" class="border-radius-20 img-width-100">
+                                    <a data-micromodal-trigger="modal-13" class="icon-youtube-hover"> 
+                                        <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
+                                    </a>
+                                    <p class="ttl-receta-semana-video-totttus font-style-italic ttl_font_introblack line-height-videos">Panqueques de plátano</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 padding-20">
+                                <div class="ttl-receta-semana-video">
+                                    <img src="imgs/ajies_rellenos.png" class="border-radius-20 img-width-100">
+                                    <a data-micromodal-trigger="modal-14" class="icon-youtube-hover"> 
+                                        <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
+                                    </a>
+                                    <p class="ttl-receta-semana-video-totttus font-style-italic ttl_font_introblack line-height-videos">Ajies rellenos</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                    <section id="ttl_landing_video2" class="padding-bottom-50">
+
+                        <div class="ttl_title ttl_green center padding-20-0">
+                            <h2 class="ttl_text_large ttl_font_introblack font-style-italic">Receta 3, 2, 1</h2>
+                            <p class="titulo-descripcion">Preparar algo rico en tu cocina no debe tomarte mucho tiempo</p>
+                        </div>
+
+                        <div class="row glider" id="glider-receta">
+
+                            <div class="col-md-4 col-lg-4 padding-20">
+                                <div class="ttl-receta-semana-video">
+                                    <img src="imgs/nuggets_pollo.png" class="border-radius-20 img-width-100">
+                                    <a data-micromodal-trigger="modal-15" class="icon-youtube-hover"> 
+                                        <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
+                                    </a>
+                                    <p class="ttl-receta-semana-video-totttus font-style-italic ttl_font_introblack line-height-videos">Nuggets de pollo caceros</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 padding-20">
+                                <div class="ttl-receta-semana-video">
+                                    <img src="imgs/empanaditas_carne.png" class="border-radius-20 img-width-100">
+                                    <a data-micromodal-trigger="modal-16" class="icon-youtube-hover"> 
+                                        <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
+                                    </a>
+                                    <p class="ttl-receta-semana-video-totttus font-style-italic ttl_font_introblack line-height-videos">Empanaditas de carne</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-lg-4 padding-20">
+                                <a data-micromodal-trigger="modal-4">
+                                    <div class="ttl-receta-semana-video">
+                                        <img src="imgs/salsa_casera.png" class="border-radius-20 img-width-100">
+                                        <a data-micromodal-trigger="modal-17" class="icon-youtube-hover"> 
+                                            <img src="imgs/play.png" class="ttl-receta-semana-video-logo">
+                                        </a>
+                                        <p class="ttl-receta-semana-video-totttus font-style-italic ttl_font_introblack line-height-videos">Salsa BBQ cacera</p>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </section>
+
+                </div>
+
+            </div>   
 
         <!-- INICIO SECCION MODAL -->
 
@@ -1285,7 +1290,12 @@
         <!-- FIN SECCION MODAL -->
 
         <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+        
+        <!-- INICIO GLIDER -->
         <script src="js/glide.min.js"></script>
+        <script src="js/main.js"></script>
+        <!-- INICIO GLIDER -->
+
         <script type="text/javascript" src="js/script.js"></script>
 
     </body>
